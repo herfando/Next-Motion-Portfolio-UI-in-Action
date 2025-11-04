@@ -68,8 +68,10 @@ Open http://localhost:3000 to view in browser
 Contact:
 
 
-## Contact
+## Get in Touch
+I’m always open to **collaborations, freelance projects, or just a friendly chat**!
 📧 Email: your.email@example.com
-🌐 Portfolio: https://yourwebsite.com
+🌐 Website: https://yourwebsite.com
 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+
 ```

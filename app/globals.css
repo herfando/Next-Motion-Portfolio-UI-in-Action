@@ -254,7 +254,7 @@ html {
 @layer base {
   main {
     margin: 0 auto;
-    @apply max-w-302 pr-6 pl-6;
+    @apply max-w-308 pr-6 pl-6;
   }
 }
 

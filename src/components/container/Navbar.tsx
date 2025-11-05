@@ -10,7 +10,7 @@ import ToggleHamburger from '../ui/togglehamburger';
 export default function Navbar() {
   return (
     <nav className='bg-primary-dark w-full text-white dark:bg-black'>
-      <div className='custom-container flex-between h-85'>
+      <div className='custom-container flex-between h-80 md:h-85'>
         <div className='flex gap-8 text-lg font-semibold hover:cursor-pointer hover:text-blue-800'>
           {/* 1.Image */}
           <Image

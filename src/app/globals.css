@@ -266,6 +266,10 @@ html {
 body {
   @apply bg-background text-foreground;
 
+  .dark & {
+    @apply bg-black text-white;
+  }
+
   font-family: var(--font-poppins);
 }
 

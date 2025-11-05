@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className='bg-primary-dark w-full text-white'>
       <div className='custom-container flex-between h-85'>
-        <div className='flex gap-8 text-lg font-semibold'>
+        <div className='flex gap-8 text-lg font-semibold hover:cursor-pointer hover:text-blue-800'>
           {/* 1.Image */}
           <Image
             src='/icons/logo.png'
@@ -24,14 +24,14 @@ export default function Navbar() {
         {/* 2. Nav */}
         <ul className='text-md font-regular hidden items-center justify-between gap-32 p-8 md:flex'>
           {navigationData.map((item) => (
-            <li key={item.label}>
+            <li key={item.label} className='hover:text-blue-800'>
               <Link href={item.href}>{item.label}</Link>
             </li>
           ))}
         </ul>
 
         {/* 3.Button */}
-        <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black md:flex'>
+        <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer md:flex'>
           <Mail className='size-20' />
           Hire Me
         </Button>

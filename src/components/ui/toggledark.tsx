@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Sun, Moon } from 'lucide-react';
 
-export default function ToggleMode() {
+export default function TogglDark() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
 
   useEffect(() => {

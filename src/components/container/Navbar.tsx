@@ -4,12 +4,13 @@ import { Button } from '../ui/button';
 import { Mail } from 'lucide-react';
 import { navigationData } from '../data/navigation-data';
 import Link from 'next/link';
-import ToggleMode from '../ui/togglemode';
+import ToggleDark from '../ui/toggledark';
+import ToggleHamburger from '../ui/togglehamburger';
 
 export default function Navbar() {
   return (
     <nav className='bg-primary-dark w-full text-white dark:bg-black'>
-      <div className='custom-container flex-between h-85'>
+      <div className='custom-container flex-between h-80 md:h-85'>
         <div className='flex gap-8 text-lg font-semibold hover:cursor-pointer hover:text-blue-800'>
           {/* 1.Image */}
           <Image
@@ -32,13 +33,16 @@ export default function Navbar() {
         </ul>
 
         {/* 3.Toggle Darkmode */}
-        <ToggleMode />
+        <ToggleDark />
 
         {/* 4.Button */}
         <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer md:flex'>
           <Mail className='size-20' />
           Hire Me
         </Button>
+
+        {/* 5.Hamburger */}
+        <ToggleHamburger />
       </div>
     </nav>
   );

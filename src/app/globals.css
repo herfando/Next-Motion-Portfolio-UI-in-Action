@@ -3,7 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme inline {
+@theme {
+  /* =======================
+     Spacing Unit
+     ======================= */
+  --spacing: 1px;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -252,9 +257,9 @@ html {
 }
 
 @layer base {
-  main {
+  .custom-container {
     margin: 0 auto;
-    @apply max-w-308 pr-6 pl-6;
+    @apply max-w-1184 pr-20 pl-20;
   }
 }
 

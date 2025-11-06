@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
+import { Mail, X } from 'lucide-react';
 import { navigationData } from '../data/navigation-data';
 import Image from 'next/image';
+import { Button } from './button';
 
 export default function ToggleHamburger({}) {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +56,6 @@ export default function ToggleHamburger({}) {
         <nav className='fixed top-0 left-0 w-full bg-white text-black dark:bg-black dark:text-white'>
           <div className='custom-container flex-between h-80 md:h-85'>
             <div className='flex gap-8 text-lg font-semibold hover:cursor-pointer hover:text-blue-800'>
-              {/* 1.Image */}
               <Image
                 src='/icons/logo_black.png'
                 alt='logo'
@@ -65,13 +65,17 @@ export default function ToggleHamburger({}) {
               />
               Your Logo
             </div>
-            <div className='fixed top-80 left-0 h-[calc(100vh-64)] w-full flex-col border-t bg-white text-black shadow-md md:hidden dark:bg-black dark:text-white'>
-              <ul className='flex flex-col gap-16 p-16'>
+            <div className='fixed top-80 left-0 h-[calc(100vh-64)] w-full flex-col bg-white text-black md:hidden dark:bg-black dark:text-white'>
+              <ul className='text-md font-regular flex flex-col gap-16 p-16'>
                 {navigationData.map((item) => (
                   <li key={item.label} className='hover:text-blue-800'>
                     <Link href={item.href}>{item.label}</Link>
                   </li>
                 ))}
+                <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB]'>
+                  <Mail className='size-20' />
+                  Hire Me
+                </Button>
               </ul>
             </div>
           </div>

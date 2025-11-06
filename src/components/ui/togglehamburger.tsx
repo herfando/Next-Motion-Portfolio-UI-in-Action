@@ -17,24 +17,11 @@ export default function ToggleHamburger({}) {
   return (
     <div className='relative block md:hidden'>
       {/* Navbar atas */}
-      <nav className='flex items-center justify-between p-4'>
-        {/* Menu desktop */}
-        <div className='hidden gap-4 md:flex'>
-          <a href='#home' className='hover:text-primary transition-colors'>
-            Home
-          </a>
-          <a href='#about' className='hover:text-primary transition-colors'>
-            About
-          </a>
-          <a href='#contact' className='hover:text-primary transition-colors'>
-            Contact
-          </a>
-        </div>
-
+      <nav className='flex items-center justify-between'>
         {/* Tombol hamburger */}
         <button
           onClick={handleToggleMenu}
-          className='z-20 rounded-md p-2 md:hidden'
+          className='z-20 rounded-md md:hidden'
           aria-label='Toggle menu'
         >
           {isOpen ? (
@@ -42,10 +29,10 @@ export default function ToggleHamburger({}) {
             <X size={28} className='text-black dark:text-white' />
           ) : (
             // Garis 3 manual
-            <div className='grid h-24 w-24 justify-items-end gap-6 p-3'>
-              <span className='h-2 w-18 bg-white'></span>
-              <span className='h-2 w-18 bg-white'></span>
-              <span className='h-2 w-12 bg-white'></span>
+            <div className='grid h-24 w-24 -translate-x-4 justify-items-end gap-6 p-3'>
+              <span className='h-2 w-24 bg-white'></span>
+              <span className='h-2 w-24 bg-white'></span>
+              <span className='h-2 w-16 bg-white'></span>
             </div>
           )}
         </button>
@@ -61,18 +48,25 @@ export default function ToggleHamburger({}) {
                 alt='logo'
                 width={26.3}
                 height={28.5}
-                className='object-contain'
+                className='block object-contain dark:hidden'
+              />
+              <Image
+                src='/icons/logo.png'
+                alt='logo'
+                width={26.3}
+                height={28.5}
+                className='hidden object-contain dark:block'
               />
               Your Logo
             </div>
-            <div className='fixed top-80 left-0 h-[calc(100vh-64)] w-full flex-col bg-white text-black md:hidden dark:bg-black dark:text-white'>
+            <div className='fixed top-96 left-0 h-[calc(100vh-64)] w-full flex-col bg-white text-black md:hidden dark:bg-black dark:text-white'>
               <ul className='text-md font-regular flex flex-col gap-16 p-16'>
                 {navigationData.map((item) => (
-                  <li key={item.label} className='hover:text-blue-800'>
+                  <li key={item.label} className='hover:text-blue-46 h-46'>
                     <Link href={item.href}>{item.label}</Link>
                   </li>
                 ))}
-                <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB]'>
+                <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB] text-white dark:text-black'>
                   <Mail className='size-20' />
                   Hire Me
                 </Button>

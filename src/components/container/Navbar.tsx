@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { use, useState } from 'react';
 import Image from 'next/image';
 import { Button } from '../ui/button';
 import { Mail } from 'lucide-react';

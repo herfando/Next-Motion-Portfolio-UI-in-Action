@@ -20,9 +20,9 @@ export default function Hero() {
 
       {/* Circle Graphic */}
       <div className='absolute top-[60.54%] left-1/2 z-4 h-[362.11] w-[362.11] -translate-x-[50%] rounded-full bg-[#6600EBCC]'></div>
-      <div className='absolute top-[46.89%] left-1/2 z-3 h-[580.74] w-[580.74] -translate-x-[50%] rounded-full bg-[#6600EBCC]'></div>
-      <div className='absolute top-[33.24%] left-1/2 z-2 h-[799.37] w-[799.37] -translate-x-[50%] rounded-full bg-[#6600EBCC]'></div>
-      <div className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EBCC]'></div>
+      <div className='absolute top-[46.89%] left-1/2 z-3 h-[580.74] w-[580.74] -translate-x-[50%] rounded-full bg-[#6600EB99]'></div>
+      <div className='absolute top-[33.24%] left-1/2 z-2 h-[799.37] w-[799.37] -translate-x-[50%] rounded-full bg-[#6600EB66]'></div>
+      <div className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'></div>
       {/* Feature Card */}
       {/* Feature Card */}
       {/* Feature Card */}

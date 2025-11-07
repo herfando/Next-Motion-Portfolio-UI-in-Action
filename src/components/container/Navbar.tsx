@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className='bg-primary-dark w-full text-white dark:bg-black'>
       <div className='custom-container flex-between h-80 md:h-85'>
-        <div className='flex w-141 gap-8 text-lg font-semibold hover:cursor-pointer hover:text-blue-800'>
+        <div className='flex w-141 gap-8 text-lg font-semibold whitespace-nowrap hover:cursor-pointer hover:text-blue-800'>
           {/* 1.Image */}
           <Image
             src='/icons/logo.png'
@@ -26,7 +26,7 @@ export default function Navbar() {
         </div>
 
         {/* 2. Nav */}
-        <ul className='text-md font-regular spacing-4xl hidden w-544 items-center justify-between gap-32 p-8 md:flex'>
+        <ul className='text-md font-regular spacing-4xl ml-99 hidden w-544 items-center justify-between gap-32 p-8 md:flex'>
           {navigationData.map((item) => (
             <li key={item.label} className='hover:text-blue-800'>
               <Link href={item.href}>{item.label}</Link>

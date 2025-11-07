@@ -40,7 +40,7 @@ export default function ToggleHamburger({}) {
 
       {/* Menu mobile muncul setelah diklik */}
       <div
-        className={`fixed top-0 left-0 h-full w-full transform bg-white text-black transition-transform duration-1000 ease-in-out md:hidden dark:bg-black dark:text-white ${
+        className={`fixed top-0 left-0 z-10 h-full w-full transform bg-white text-black transition-transform duration-1000 ease-in-out md:hidden dark:bg-black dark:text-white ${
           isOpen
             ? 'translate-y-0' // /* TRANSLATE HERE: menu muncul */
             : '-translate-y-full' // /* TRANSLATE HERE: menu geser keluar */

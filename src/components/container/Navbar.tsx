@@ -20,7 +20,7 @@ export default function Navbar() {
             alt='logo'
             width={26.3}
             height={28.5}
-            className='object-contain'
+            className='w-26.3 h-28.5 object-contain'
           />
           Your Logo
         </div>

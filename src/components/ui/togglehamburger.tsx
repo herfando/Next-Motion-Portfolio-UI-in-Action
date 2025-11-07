@@ -26,10 +26,13 @@ export default function ToggleHamburger({}) {
         >
           {isOpen ? (
             // Ikon X saat terbuka
-            <X size={28} className='text-black dark:text-white' />
+            <X
+              size={28}
+              className='text-black hover:cursor-pointer dark:text-white'
+            />
           ) : (
             // Garis 3 manual
-            <div className='grid h-24 w-24 -translate-x-4 justify-items-end gap-6 p-3'>
+            <div className='grid h-24 w-24 -translate-x-4 justify-items-end gap-6 p-3 hover:cursor-pointer'>
               <span className='h-2 w-24 bg-white'></span>
               <span className='h-2 w-24 bg-white'></span>
               <span className='h-2 w-16 bg-white'></span>
@@ -72,7 +75,7 @@ export default function ToggleHamburger({}) {
                   <Link href={item.href}>{item.label}</Link>
                 </li>
               ))}
-              <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB] text-white dark:text-black'>
+              <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB] text-white hover:cursor-pointer dark:text-black'>
                 <Mail className='size-20' />
                 Hire Me
               </Button>

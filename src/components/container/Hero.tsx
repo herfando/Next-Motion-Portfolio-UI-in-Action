@@ -5,7 +5,10 @@ export default function Hero() {
   return (
     <section className='bg-primary-dark relative grid h-621 w-full justify-center md:h-801 dark:bg-black'>
       {/* Name */}
-      <div className='absolute top-[3.22%] left-1/2 h-56 w-371 -translate-x-[50%] flex-nowrap align-middle text-[40px] leading-56 font-extrabold tracking-[0] text-white md:top-[7.36%] md:h-195 md:w-1389 md:text-[150px] md:leading-195'>
+      <div
+        style={{ top: 'clamp(3.22%,0.51vw,7.36%)' }}
+        className='flex-center absolute left-1/2 h-56 w-full -translate-x-[50%] align-middle text-[clamp(40px,10vw,150px)] leading-56 font-extrabold tracking-[0] whitespace-nowrap text-white md:h-195 md:leading-195'
+      >
         EDWIN ANDERSON
       </div>
       {/* Picture */}

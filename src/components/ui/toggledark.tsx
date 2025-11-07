@@ -17,7 +17,7 @@ export default function TogglDark() {
   return (
     <button
       onClick={toggleTheme}
-      className='z-20 rounded-full bg-gray-200 p-2 text-gray-800 transition-transform hover:scale-110 dark:bg-gray-700 dark:text-gray-200'
+      className='z-20 rounded-full bg-gray-200 p-2 text-gray-800 transition-transform hover:scale-110 hover:cursor-pointer dark:bg-gray-700 dark:text-gray-200'
       aria-label='Toggle theme'
     >
       {theme === 'light' ? <Sun size={20} /> : <Moon size={20} />}

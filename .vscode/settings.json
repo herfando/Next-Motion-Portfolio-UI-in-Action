@@ -45,10 +45,10 @@
   },
 
   // 🎨 Hindari error “unknown at rule” dari Tailwind atau CSS custom
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
-  "less.lint.unknownAtRules": "ignore",
-  "css.lint.unknownProperties": "ignore",
+  // "css.lint.unknownAtRules": "ignore",
+  // "scss.lint.unknownAtRules": "ignore",
+  // "less.lint.unknownAtRules": "ignore",
+  // "css.lint.unknownProperties": "ignore",
 
   // 🌈 Opsional: tampilkan warna inline di editor
   "editor.colorDecorators": true,

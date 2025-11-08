@@ -19,13 +19,73 @@ export default function Hero() {
       />
 
       {/* Circle Graphic */}
-      <div className='absolute top-[60.54%] left-1/2 z-4 h-[362.11] w-[362.11] -translate-x-[50%] rounded-full bg-[#6600EBCC]'></div>
-      <div className='absolute top-[46.89%] left-1/2 z-3 h-[580.74] w-[580.74] -translate-x-[50%] rounded-full bg-[#6600EB99]'></div>
-      <div className='absolute top-[33.24%] left-1/2 z-2 h-[799.37] w-[799.37] -translate-x-[50%] rounded-full bg-[#6600EB66]'></div>
-      <div className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'></div>
+      <div
+        style={{
+          height: 'clamp(13.49rem, 45.20vw, 22.63rem)',
+          width: 'clamp(13.49rem, 45.20vw, 22.63rem)',
+        }}
+        className='absolute top-[60.54%] left-1/2 z-4 -translate-x-[50%] rounded-full bg-[#6600EBCC]'
+      ></div>
+      <div
+        style={{
+          width: 'clamp(21.64rem, 72.49vw, 36.30rem)',
+          height: 'clamp(21.64rem, 72.49vw, 36.30rem)',
+        }}
+        className='absolute top-[46.89%] left-1/2 z-3 -translate-x-[50%] rounded-full bg-[#6600EB99]'
+      ></div>
+      <div
+        style={{
+          width: 'clamp(29.79rem, 99.80vw, 49.96rem)',
+          height: 'clamp(29.79rem, 99.80vw, 49.96rem)',
+        }}
+        className='absolute top-[33.24%] left-1/2 z-2 -translate-x-[50%] rounded-full bg-[#6600EB66]'
+      ></div>
+      <div
+        style={{
+          width: 'clamp(37.94rem, 127.09vw, 63.63rem)',
+          height: 'clamp(37.94rem, 127.09vw, 63.63rem)',
+        }}
+        className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'
+      ></div>
       {/* Feature Card */}
       {/* Feature Card */}
       {/* Feature Card */}
+
+      {/* Skill */}
+      <div className='flex-center absolute top-[98%] z-7 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>
+        <Image
+          src='/icons/sharp_rectangle.png'
+          alt='icons'
+          width={48}
+          height={52.5}
+          className='h-35 w-32 md:h-52.5 md:w-48'
+        ></Image>
+        <h1>Frontend Developer</h1>
+        <Image
+          src='/icons/sharp_rectangle.png'
+          alt='icons'
+          width={48}
+          height={52.5}
+          className='h-35 w-32 md:h-52.5 md:w-48'
+        ></Image>
+        <h1>Expert React</h1>
+        <Image
+          src='/icons/sharp_rectangle.png'
+          alt='icons'
+          width={48}
+          height={52.5}
+          className='h-35 w-32 md:h-52.5 md:w-48'
+        ></Image>
+        <h1>Programmers</h1>
+        <Image
+          src='/icons/sharp_rectangle.png'
+          alt='icons'
+          width={48}
+          height={52.5}
+          className='h-35 w-32 md:h-52.5 md:w-48'
+        ></Image>
+        <h1>Mobile Developers</h1>
+      </div>
     </section>
   );
 }

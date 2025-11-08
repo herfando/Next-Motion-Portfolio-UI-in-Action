@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Card } from '../ui/card';
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
         alt='Hero Image'
         width={763}
         height={763}
-        className='absolute top-[32.85%] left-1/2 z-6 -translate-x-[50%] object-contain pb-0 md:top-[14.3%] md:block md:-translate-x-[54.4%] md:pb-75'
+        className='absolute top-[32.85%] left-1/2 z-9 -translate-x-[50%] object-contain pb-0 md:top-[14.3%] md:block md:-translate-x-[54.4%] md:pb-75'
         style={{ height: 'clamp(26.5rem, 52.99vw, 47.69rem)' }}
       />
 
@@ -48,6 +49,10 @@ export default function Hero() {
         className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'
       ></div>
       {/* Feature Card */}
+      <Card className='absolute top-[39.07%] right-1/2 h-192 w-200 -translate-x-[50%]'>
+        selamat pagi
+      </Card>
+
       {/* Feature Card */}
       {/* Feature Card */}
 

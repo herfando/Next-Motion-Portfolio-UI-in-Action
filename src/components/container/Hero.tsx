@@ -14,7 +14,7 @@ export default function Hero() {
         alt='Hero Image'
         width={763}
         height={763}
-        className='absolute top-[32.85%] left-1/2 z-6 -translate-x-[50%] object-contain pb-80 md:top-[14.3%] md:block md:-translate-x-[54.4%]'
+        className='absolute top-[32.85%] left-1/2 z-6 -translate-x-[50%] object-contain pb-0 md:top-[14.3%] md:block md:-translate-x-[54.4%] md:pb-75'
         style={{ height: 'clamp(26.5rem, 52.99vw, 47.69rem)' }}
       />
 
@@ -52,7 +52,7 @@ export default function Hero() {
       {/* Feature Card */}
 
       {/* Skill */}
-      <div className='flex-center absolute top-[98%] z-7 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>
+      <div className='flex-center absolute top-full z-7 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>
         <Image
           src='/icons/sharp_rectangle.png'
           alt='icons'

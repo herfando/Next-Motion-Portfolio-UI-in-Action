@@ -15,13 +15,13 @@ export default function ToggleHamburger({}) {
   };
 
   return (
-    <div className='relative block md:hidden'>
+    <div className='relative block lg:hidden'>
       {/* Navbar atas */}
       <nav className='flex items-center justify-between'>
         {/* Tombol hamburger */}
         <button
           onClick={handleToggleMenu}
-          className='z-20 rounded-md md:hidden'
+          className='z-20 rounded-lg lg:hidden'
           aria-label='Toggle menu'
         >
           {isOpen ? (
@@ -43,14 +43,14 @@ export default function ToggleHamburger({}) {
 
       {/* Menu mobile muncul setelah diklik */}
       <div
-        className={`fixed top-0 left-0 z-10 h-full w-full transform bg-white text-black transition-transform duration-1000 ease-in-out md:hidden dark:bg-black dark:text-white ${
+        className={`fixed top-0 left-0 z-10 h-full w-full transform bg-white text-black transition-transform duration-1000 ease-in-out lg:hidden dark:bg-black dark:text-white ${
           isOpen
             ? 'translate-y-0' // /* TRANSLATE HERE: menu muncul */
             : '-translate-y-full' // /* TRANSLATE HERE: menu geser keluar */
         }`}
       >
-        <div className='custom-container flex-between h-80 md:h-85'>
-          <div className='flex gap-8 text-lg font-semibold hover:cursor-pointer hover:text-blue-800'>
+        <div className='custom-container flex-between h-80 lg:h-85'>
+          <div className='text-md flex gap-8 font-semibold hover:cursor-pointer hover:text-blue-800'>
             {/* Logo */}
             <Image
               src='/icons/logo_black.png'
@@ -68,8 +68,8 @@ export default function ToggleHamburger({}) {
             />
             Your Logo
           </div>
-          <div className='fixed top-96 right-0 h-[calc(100vh-64)] w-full flex-col bg-white text-black md:hidden dark:bg-black dark:text-white'>
-            <ul className='text-md font-regular flex flex-col gap-16 p-16'>
+          <div className='fixed top-96 right-0 h-[calc(100vh-64)] w-full flex-col bg-white text-black lg:hidden dark:bg-black dark:text-white'>
+            <ul className='font-regular text-md flex flex-col gap-16 p-16'>
               {navigationData.map((item) => (
                 <li key={item.label} className='hover:text-blue-46 h-46'>
                   <Link href={item.href}>{item.label}</Link>

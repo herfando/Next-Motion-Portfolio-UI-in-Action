@@ -94,7 +94,7 @@ export default function Hero() {
       </Card>
 
       {/* Feature Card 2 */}
-      <Card className='absolute right-1/2 h-104 w-283 -translate-x-[73.498%] p-20 md:top-[71.54%]'>
+      <Card className='absolute top-[65.056%] right-1/2 h-104 w-283 -translate-x-[14.924%] p-20 md:top-[71.54%] md:-translate-x-[73.498%]'>
         <p className='text-[24px] font-bold whitespace-nowrap'>
           Frontend Developer
         </p>
@@ -110,37 +110,37 @@ export default function Hero() {
         </div>
       </Card>
       {/* Feature Card 3 */}
-      <Card className='absolute top-[60.897%] left-1/2 h-192 w-208 translate-x-[110.09%] space-y-10 p-20'>
-        <p className='text-[40px] font-bold'>50+</p>
-        <p className='text-sm'>Global Clients</p>
+      <Card className='absolute top-[58.454%] left-1/2 h-136 w-148 translate-x-[55.047%] space-y-5 p-10 md:top-[60.897%] md:h-192 md:w-208 md:translate-x-[110.09%] md:space-y-10 md:p-20'>
+        <p className='text-[24px] font-bold md:text-[40px]'>50+</p>
+        <p className='text-xs md:text-sm'>Global Clients</p>
         <div className='flex -space-x-10'>
           <Image
             src='/images/02_Male Avatar.png'
             width={52}
             height={52}
             alt='Male avatar1'
-            className='h-52 w-52'
+            className='h-40 w-40 md:h-52 md:w-52'
           ></Image>
           <Image
             src='/images/03_Female Avatar.png'
             width={52}
             height={52}
             alt='Male avatar1'
-            className='h-52 w-52'
+            className='h-40 w-40 md:h-52 md:w-52'
           ></Image>
           <Image
             src='/images/04_Male Avatar.png'
             width={52}
             height={52}
             alt='Male avatar1'
-            className='h-52 w-52'
+            className='h-40 w-40 md:h-52 md:w-52'
           ></Image>
           <Image
             src='/images/05_Female Avatar.png'
             width={52}
             height={52}
             alt='Male avatar1'
-            className='h-52 w-52'
+            className='h-40 w-40 md:h-52 md:w-52'
           ></Image>
         </div>
       </Card>

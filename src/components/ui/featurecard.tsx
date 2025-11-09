@@ -9,3 +9,10 @@ type FeatureCardProps = {
   className?: string;
   animationDelay?: number;
 };
+
+const FeatureCard: React.FC<FeatureCardProps> = ({
+  icon,
+  title,
+  description,
+  className,
+  animationDelay,

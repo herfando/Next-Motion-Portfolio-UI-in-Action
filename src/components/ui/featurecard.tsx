@@ -37,7 +37,6 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             padding: 'clamp(0.5rem, 1.25vw, 1rem)',
           }}
         ></div>
-
          <div
             className='bg-primary-300 flex-center aspect-square rounded-full shadow-[0_0_17px_rgba(0,147,221,0.6)] [&>*]:h-auto [&>*]:w-full'
             style={{
@@ -45,3 +44,13 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
               padding: 'clamp(0.31rem, 0.83vw, 0.63rem)',
             }}
           ></div>
+          {icon}
+          </div>
+          <h3
+            className='text-neutral-25 font-semibold'
+            style={{
+              fontSize: 'clamp(0.47rem, 1.16vw, 0.88rem)',
+              lineHeight: 'clamp(0.94rem, 2.32vw, 1.75rem)',
+              marginTop: 'clamp(0.25rem, 0.66vw, 0.5rem)',
+            }}
+          ></h3>

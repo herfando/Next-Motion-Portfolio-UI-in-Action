@@ -26,3 +26,7 @@ const SkewMotion: React.FC<SkewMotionProps> = ({
       animate={{ skewX: -7 }}
       {...motionProps}
     ></Comp>
+         {children}
+    </Comp>
+  );
+};

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Card } from '../ui/card';
+import { BitcoinIcon } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -49,7 +50,7 @@ export default function Hero() {
         className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'
       ></div>
 
-      {/* Feature Card */}
+      {/* Feature Card 1 */}
       <Card className='absolute top-[39.07%] right-1/2 h-192 w-200 -translate-x-[100.69%] space-y-10 p-20'>
         <p className='text-[40px] font-bold'>5.0</p>
         <div className='flex'>
@@ -92,8 +93,21 @@ export default function Hero() {
         <p className='text-sm'>Many Client Trust with me</p>
       </Card>
 
-      {/* Feature Card */}
-      {/* Feature Card */}
+      {/* Feature Card 2 */}
+      <Card className='absolute h-104 w-283 p-20'>
+        <p className='text-[24px] font-bold'>Frontend Developer</p>
+        <div className='flex gap-2'>
+          <Image
+            src='/icons/ceklist.svg'
+            width={13.89}
+            height={13.89}
+            alt='ceklist'
+            className='w-13.89 h-13.89'
+          ></Image>
+          <p className='text-sm'>React Expert</p>
+        </div>
+      </Card>
+      {/* Feature Card 3 */}
 
       {/* Skill */}
       <div className='flex-center absolute top-full z-9 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>

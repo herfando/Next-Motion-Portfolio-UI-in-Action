@@ -1,13 +1,13 @@
-import Navbar from '../components/container/Navbar';
-import Hero from '../components/container/Hero';
+import Navbar from '../components/container/01_Navbar';
+import Home from '../components/container/02_Home';
 
-const Home = () => {
+const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Home />
     </>
   );
 };
 
-export default Home;
+export default App;

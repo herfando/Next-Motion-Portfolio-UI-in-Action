@@ -9,3 +9,11 @@ import { useMedia } from 'react-use';
 
 function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
   const isLargeIsh = useMedia('(min-width:1024px', false);
+
+  const [open, setOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    if (isLargeIsh) {
+      setOpen(false);
+    }
+  }, [isLargeIsh]);

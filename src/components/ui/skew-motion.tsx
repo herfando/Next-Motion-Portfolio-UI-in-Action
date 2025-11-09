@@ -9,3 +9,5 @@ interface SkewMotionProps extends HTMLMotionProps<'div'> {
   delay?: number;
   asChild?: boolean;
 }
+const MotionSlot = motion.create(Slot);
+const MotionDiv = motion.div;

@@ -9,7 +9,7 @@ export default function Hero() {
       <div className='flex-center absolute top-[3.22%] left-1/2 z-5 h-56 w-full -translate-x-[50%] align-middle text-[clamp(40px,10vw,150px)] leading-56 font-extrabold tracking-[0] whitespace-nowrap text-white md:top-[7.6%] md:h-195 md:leading-195'>
         EDWIN ANDERSON
       </div>
-      {/* Picture */}
+      {/* Picture Hero*/}
       <Image
         src='/images/Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie dekstop1.png'
         alt='Hero Image'
@@ -48,16 +48,55 @@ export default function Hero() {
         }}
         className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'
       ></div>
+
       {/* Feature Card */}
-      <Card className='absolute top-[39.07%] right-1/2 h-192 w-200 -translate-x-[50%]'>
-        selamat pagi
+      <Card className='absolute top-[39.07%] right-1/2 h-192 w-200 -translate-x-[100.69%] space-y-10 p-20'>
+        <p className='text-[40px] font-bold'>5.0</p>
+        <div className='flex'>
+          <Image
+            src='/icons/star1.svg'
+            alt='star icon'
+            width={24}
+            height={24}
+            className='mx-2'
+          />
+          <Image
+            src='/icons/star1.svg'
+            alt='star icon'
+            width={24}
+            height={24}
+            className='mx-2'
+          />
+          <Image
+            src='/icons/star1.svg'
+            alt='star icon'
+            width={24}
+            height={24}
+            className='mx-2'
+          />
+          <Image
+            src='/icons/star1.svg'
+            alt='star icon'
+            width={24}
+            height={24}
+            className='mx-2'
+          />
+          <Image
+            src='/icons/star1.svg'
+            alt='star icon'
+            width={24}
+            height={24}
+            className='mx-2'
+          />
+        </div>
+        <p className='text-sm'>Many Client Trust with me</p>
       </Card>
 
       {/* Feature Card */}
       {/* Feature Card */}
 
       {/* Skill */}
-      <div className='flex-center absolute top-full z-7 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>
+      <div className='flex-center absolute top-full z-9 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>
         <Image
           src='/icons/sharp_rectangle.png'
           alt='icons'

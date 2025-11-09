@@ -51,7 +51,7 @@ export default function Hero() {
       ></div>
 
       {/* Feature Card 1 */}
-      <Card className='absolute top-[39.07%] right-1/2 h-192 w-200 -translate-x-[100.69%] space-y-10 p-20'>
+      <Card className='absolute top-[16.908%] right-1/2 h-192 w-200 translate-x-[19.427%] space-y-10 p-20 md:top-[39.07%] md:-translate-x-[100.69%]'>
         <p className='text-[40px] font-bold'>5.0</p>
         <div className='flex'>
           <Image
@@ -95,7 +95,9 @@ export default function Hero() {
 
       {/* Feature Card 2 */}
       <Card className='absolute right-1/2 h-104 w-283 -translate-x-[73.498%] p-20 md:top-[71.54%]'>
-        <p className='text-[24px] font-bold'>Frontend Developer</p>
+        <p className='text-[24px] font-bold whitespace-nowrap'>
+          Frontend Developer
+        </p>
         <div className='flex gap-2'>
           <Image
             src='/icons/04_ceklist.svg'

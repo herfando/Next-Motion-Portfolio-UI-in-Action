@@ -6,3 +6,6 @@ type FeatureCardProps = {
   icon: React.ReactNode;
   title: string;
   description: string;
+  className?: string;
+  animationDelay?: number;
+};

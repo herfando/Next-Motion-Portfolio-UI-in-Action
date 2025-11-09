@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className='flex w-141 gap-8 text-lg font-semibold whitespace-nowrap hover:cursor-pointer hover:text-blue-800'>
           {/* 1.Image */}
           <Image
-            src='/icons/logo.png'
+            src='/icons/01_logo.png'
             alt='logo'
             width={26.3}
             height={28.5}

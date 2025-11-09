@@ -24,3 +24,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         className={cn(
           'rounded-md bg-gradient-to-b from-[#0093DD] to-transparent p-0.25',
           className
+               )}
+        style={{
+          width: 'clamp(6.375rem, 15.89vw, 12rem)',
+          borderRadius: 'clamp(0.25rem, 0.66vw, 0.5rem)',
+        }}
+      ></div>

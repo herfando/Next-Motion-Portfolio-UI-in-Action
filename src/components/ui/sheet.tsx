@@ -17,3 +17,12 @@ function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
       setOpen(false);
     }
   }, [isLargeIsh]);
+
+    return (
+    <SheetPrimitive.Root
+      data-slot='sheet'
+      open={open}
+      onOpenChange={setOpen}
+      {...props}
+    />
+  );

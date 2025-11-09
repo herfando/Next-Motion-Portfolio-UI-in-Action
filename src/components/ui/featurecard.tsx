@@ -1,7 +1,7 @@
 import { cn } from '@/lib/utils';
 import React from 'react';
 import SkewMotion from './ui/skew-motion';
-import { h3 } from 'framer-motion/client';
+import { div, h3, p } from 'framer-motion/client';
 
 type FeatureCardProps = {
   icon: React.ReactNode;
@@ -65,3 +65,8 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
                 'clamp(0.9375rem, calc((28 / 1208) * 100vw), 1.75rem)',
             }}
           ></p>
+             {description}
+          </p>
+        </div>
+      </div>
+    </SkewMotion>

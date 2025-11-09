@@ -26,28 +26,28 @@ export default function Hero() {
           height: 'clamp(13.49rem, 45.20vw, 22.63rem)',
           width: 'clamp(13.49rem, 45.20vw, 22.63rem)',
         }}
-        className='absolute top-[60.54%] left-1/2 z-4 -translate-x-[50%] rounded-full bg-[#6600EBCC]'
+        className='absolute top-[60.54%] left-1/2 z-4 -translate-x-[50%] rounded-full bg-[#6600EBCC] dark:bg-[#B388FFCC]'
       ></div>
       <div
         style={{
           width: 'clamp(21.64rem, 72.49vw, 36.30rem)',
           height: 'clamp(21.64rem, 72.49vw, 36.30rem)',
         }}
-        className='absolute top-[46.89%] left-1/2 z-3 -translate-x-[50%] rounded-full bg-[#6600EB99]'
+        className='absolute top-[46.89%] left-1/2 z-3 -translate-x-[50%] rounded-full bg-[#6600EB99] dark:bg-[#B388FF99]'
       ></div>
       <div
         style={{
           width: 'clamp(29.79rem, 99.80vw, 49.96rem)',
           height: 'clamp(29.79rem, 99.80vw, 49.96rem)',
         }}
-        className='absolute top-[33.24%] left-1/2 z-2 -translate-x-[50%] rounded-full bg-[#6600EB66]'
+        className='absolute top-[33.24%] left-1/2 z-2 -translate-x-[50%] rounded-full bg-[#6600EB66] dark:bg-[#B388FF66]'
       ></div>
       <div
         style={{
           width: 'clamp(37.94rem, 127.09vw, 63.63rem)',
           height: 'clamp(37.94rem, 127.09vw, 63.63rem)',
         }}
-        className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33]'
+        className='absolute top-[19.6%] left-1/2 z-1 h-[1018] w-[1018] -translate-x-[50%] rounded-full bg-[#6600EB33] dark:bg-[#B388FF33]'
       ></div>
 
       {/* Feature Card 1 */}
@@ -104,7 +104,7 @@ export default function Hero() {
             width={13.89}
             height={13.89}
             alt='ceklist'
-            className='w-13.89 h-13.89'
+            className='w-13.89 h-13.89 dark:invert'
           ></Image>
           <p className='text-sm'>React Expert</p>
         </div>

@@ -55,35 +55,35 @@ export default function Hero() {
         <p className='text-[40px] font-bold'>5.0</p>
         <div className='flex'>
           <Image
-            src='/icons/star1.svg'
+            src='/icons/03_star.svg'
             alt='star icon'
             width={24}
             height={24}
             className='mx-2'
           />
           <Image
-            src='/icons/star1.svg'
+            src='/icons/03_star.svg'
             alt='star icon'
             width={24}
             height={24}
             className='mx-2'
           />
           <Image
-            src='/icons/star1.svg'
+            src='/icons/03_star.svg'
             alt='star icon'
             width={24}
             height={24}
             className='mx-2'
           />
           <Image
-            src='/icons/star1.svg'
+            src='/icons/03_star.svg'
             alt='star icon'
             width={24}
             height={24}
             className='mx-2'
           />
           <Image
-            src='/icons/star1.svg'
+            src='/icons/03_star.svg'
             alt='star icon'
             width={24}
             height={24}
@@ -94,11 +94,11 @@ export default function Hero() {
       </Card>
 
       {/* Feature Card 2 */}
-      <Card className='absolute h-104 w-283 p-20'>
+      <Card className='absolute right-1/2 h-104 w-283 -translate-x-[73.498%] p-20 md:top-[71.54%]'>
         <p className='text-[24px] font-bold'>Frontend Developer</p>
         <div className='flex gap-2'>
           <Image
-            src='/icons/ceklist.svg'
+            src='/icons/04_ceklist.svg'
             width={13.89}
             height={13.89}
             alt='ceklist'
@@ -112,7 +112,7 @@ export default function Hero() {
       {/* Skill */}
       <div className='flex-center absolute top-full z-9 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>
         <Image
-          src='/icons/sharp_rectangle.png'
+          src='/icons/05_sharp_rectangle.png'
           alt='icons'
           width={48}
           height={52.5}
@@ -120,7 +120,7 @@ export default function Hero() {
         ></Image>
         <h1>Frontend Developer</h1>
         <Image
-          src='/icons/sharp_rectangle.png'
+          src='/icons/05_sharp_rectangle.png'
           alt='icons'
           width={48}
           height={52.5}
@@ -128,7 +128,7 @@ export default function Hero() {
         ></Image>
         <h1>Expert React</h1>
         <Image
-          src='/icons/sharp_rectangle.png'
+          src='/icons/05_sharp_rectangle.png'
           alt='icons'
           width={48}
           height={52.5}
@@ -136,7 +136,7 @@ export default function Hero() {
         ></Image>
         <h1>Programmers</h1>
         <Image
-          src='/icons/sharp_rectangle.png'
+          src='/icons/05_sharp_rectangle.png'
           alt='icons'
           width={48}
           height={52.5}

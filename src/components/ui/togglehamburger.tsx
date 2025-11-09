@@ -53,7 +53,7 @@ export default function ToggleHamburger({}) {
           <div className='text-md flex gap-8 font-semibold hover:cursor-pointer hover:text-blue-800'>
             {/* Logo */}
             <Image
-              src='/icons/logo_black.png'
+              src='/icons/02_logo_black.png'
               alt='logo'
               width={26.3}
               height={28.5}

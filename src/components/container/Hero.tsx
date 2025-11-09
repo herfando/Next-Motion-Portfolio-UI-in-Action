@@ -108,6 +108,40 @@ export default function Hero() {
         </div>
       </Card>
       {/* Feature Card 3 */}
+      <Card className='absolute top-[60.897%] left-1/2 h-192 w-208 translate-x-[110.09%] space-y-10 p-20'>
+        <p className='text-[40px] font-bold'>50+</p>
+        <p className='text-sm'>Global Clients</p>
+        <div className='flex -space-x-10'>
+          <Image
+            src='/images/02_Male Avatar.png'
+            width={52}
+            height={52}
+            alt='Male avatar1'
+            className='h-52 w-52'
+          ></Image>
+          <Image
+            src='/images/03_Female Avatar.png'
+            width={52}
+            height={52}
+            alt='Male avatar1'
+            className='h-52 w-52'
+          ></Image>
+          <Image
+            src='/images/04_Male Avatar.png'
+            width={52}
+            height={52}
+            alt='Male avatar1'
+            className='h-52 w-52'
+          ></Image>
+          <Image
+            src='/images/05_Female Avatar.png'
+            width={52}
+            height={52}
+            alt='Male avatar1'
+            className='h-52 w-52'
+          ></Image>
+        </div>
+      </Card>
 
       {/* Skill */}
       <div className='flex-center absolute top-full z-9 h-84 w-full gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:text-[48px] dark:bg-white dark:text-black'>

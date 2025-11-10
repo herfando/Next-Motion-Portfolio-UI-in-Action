@@ -255,7 +255,7 @@ html {
 @layer base {
   .custom-container {
     margin: 0 auto;
-    @apply max-w-1184 pr-20 pl-20;
+    @apply max-w-1224 pr-20 pl-20;
   }
 }
 

@@ -106,7 +106,7 @@ export default function Home() {
           </p>
           <div className='flex gap-2'>
             <Image
-              src='/icons/04_ceklist.svg'
+              src='/icons/03_ceklist.svg'
               width={13.89}
               height={13.89}
               alt='ceklist'

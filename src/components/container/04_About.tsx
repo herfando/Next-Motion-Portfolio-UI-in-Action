@@ -19,7 +19,9 @@ export default function About() {
           </span>
         </p>
       </div>
-      <div className='mt-40 flex gap-20'>
+
+      {/* Coloumn 1 */}
+      <div className='mt-40 flex space-x-20 bg-amber-400'>
         {/* Why Choosen Me */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
           <p className='font-bold text-white md:text-[32px] dark:text-black'>
@@ -237,6 +239,23 @@ export default function About() {
               className='absolute inset-0 top-[74.936%] left-[65.616%] h-71 w-95'
             />
           </div>
+        </div>
+      </div>
+
+      {/* Coloumn 2 */}
+      <div className='mt-40 flex gap-20'>
+        {/* Why Choosen Me */}
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
+          <p className='font-bold text-[#F39C3F] md:text-[32px] dark:text-white'>
+            EDWIN <p>ANDERSON</p>
+          </p>
+          <Image
+            className='absolute top-[2.784%] left-0 h-384 w-381'
+            width={381}
+            height={384}
+            alt='image'
+            src='/images/20_Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie 1.png'
+          />
         </div>
       </div>
     </div>

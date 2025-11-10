@@ -203,52 +203,39 @@ export default function About() {
           </div>
         </div>
         {/* 5+ Years Experience */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
-          <p className='font-bold text-white md:text-[32px] dark:text-black'>
-            Why Choose Me
-          </p>
-          <p className='md:text-md font-regular text-white dark:text-black'>
-            Delivering excellence with innovative solutions and seamless
-            execution.
-          </p>
-          {/* layer 1 */}
-          <div className='absolute top-[50.126%] left-0 flex -translate-x-[13.22%] gap-10'>
-            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
-            </p>
-            <p className='h-36 w-168 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              Fullstack Developer
-            </p>
-            <p className='h-36 w-154 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              Resposive Design
-            </p>
+        <div className='relative space-y-20 overflow-hidden rounded-2xl md:h-395 md:w-381'>
+          <Image
+            src='/images/16_5 years experience.png'
+            alt='experience'
+            width={381}
+            height={395}
+            className='h-395 w-381'
+          />
+          <div className='absolute inset-0 top-[25.822%] place-items-center font-bold text-white md:text-[40px] dark:text-black'>
+            <p>5+ Years</p> <p>Experience</p>
           </div>
-          {/* layer 2 */}
-          <div className='absolute top-[63.29%] left-0 flex -translate-x-[13.22%] gap-10'>
-            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
-            </p>
-            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
-            </p>
-            <p className='h-36 w-163 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              5 Years Experience
-            </p>
-            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
-            </p>
-          </div>
-          {/* layer 3 */}
-          <div className='absolute top-[76.455%] left-0 flex -translate-x-[13.22%] gap-10'>
-            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
-            </p>
-            <p className='h-36 w-116 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              Clean Code
-            </p>
-            <p className='h-36 w-206 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              Performance Optimation
-            </p>
+          <div className='flex'>
+            <Image
+              src='/images/17_experience.png'
+              alt='experience1'
+              width={95}
+              height={71}
+              className='absolute inset-0 top-[74.936%] left-[9.448%] h-71 w-95'
+            />
+            <Image
+              src='/images/18_experience2.png'
+              alt='experience1'
+              width={95}
+              height={71}
+              className='absolute inset-0 top-[74.936%] left-[37.532%] h-71 w-95'
+            />
+            <Image
+              src='/images/19_experience3.png'
+              alt='experience1'
+              width={95}
+              height={71}
+              className='absolute inset-0 top-[74.936%] left-[65.616%] h-71 w-95'
+            />
           </div>
         </div>
       </div>

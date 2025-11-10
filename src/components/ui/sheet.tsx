@@ -37,3 +37,8 @@ function SheetClose({
 }: React.ComponentProps<typeof SheetPrimitive.Close>) {
   return <SheetPrimitive.Close data-slot='sheet-close' {...props} />;
 }
+function SheetPortal({
+  ...props
+}: React.ComponentProps<typeof SheetPrimitive.Portal>) {
+  return <SheetPrimitive.Portal data-slot='sheet-portal' {...props} />;
+}

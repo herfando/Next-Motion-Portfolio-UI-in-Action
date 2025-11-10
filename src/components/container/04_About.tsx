@@ -19,11 +19,11 @@ export default function About() {
       </div>
       <div className='mt-40'>
         {/* Why Choosen Me */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381'>
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
           <p className='font-bold text-white md:text-[32px] dark:text-black'>
             Why Choose Me
           </p>
-          <p className='md:text-md text-white dark:text-black'>
+          <p className='md:text-md font-regular text-white dark:text-black'>
             Delivering excellence with innovative solutions and seamless
             execution.
           </p>
@@ -44,7 +44,7 @@ export default function About() {
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               React Expert
             </p>
-            <p className='h-36 w-168 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               React Expert
             </p>
             <p className='h-36 w-163 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>

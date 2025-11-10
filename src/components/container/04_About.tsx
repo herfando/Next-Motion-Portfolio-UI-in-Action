@@ -153,6 +153,54 @@ export default function About() {
               />
             </p>
           </div>
+          {/* layer 2 */}
+          <div className='flex-between translate-y-9'>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/06_skill1.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/07_skill2.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/08_skill3.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/09_skill4.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/10_skill5.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+          </div>
         </div>
         {/* 5+ Years Experience */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>

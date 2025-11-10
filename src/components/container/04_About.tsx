@@ -27,7 +27,8 @@ export default function About() {
             Delivering excellence with innovative solutions and seamless
             execution.
           </p>
-          <div className='absolute left-0 flex -translate-x-[13.22%] gap-10'>
+          {/* layer 1 */}
+          <div className='absolute top-[50.126%] left-0 flex -translate-x-[13.22%] gap-10'>
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               React Expert
             </p>
@@ -36,6 +37,33 @@ export default function About() {
             </p>
             <p className='h-36 w-154 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               Resposive Design
+            </p>
+          </div>
+          {/* layer 2 */}
+          <div className='absolute top-[63.29%] left-0 flex -translate-x-[13.22%] gap-10'>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-168 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-163 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              5 Years Experience
+            </p>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+          </div>
+          {/* layer 3 */}
+          <div className='absolute top-[76.455%] left-0 flex -translate-x-[13.22%] gap-10'>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-116 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              Clean Code
+            </p>
+            <p className='h-36 w-206 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              Performance Optimation
             </p>
           </div>
         </div>

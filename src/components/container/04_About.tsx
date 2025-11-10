@@ -1,5 +1,7 @@
 import { div } from 'framer-motion/client';
 import React from 'react';
+import { Star } from 'lucide-react';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -17,7 +19,7 @@ export default function About() {
           </span>
         </p>
       </div>
-      <div className='mt-40'>
+      <div className='mt-40 flex gap-20'>
         {/* Why Choosen Me */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
           <p className='font-bold text-white md:text-[32px] dark:text-black'>
@@ -67,8 +69,141 @@ export default function About() {
             </p>
           </div>
         </div>
+        {/* Expert Skill */}
+        <div className='relative space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
+          <p className='font-bold text-white md:text-[32px] dark:text-black'>
+            Expert Skill
+          </p>
+          <div className='flex gap-5'>
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+          </div>
+          <p className='md:text-md font-regular text-white dark:text-black'>
+            Mastering modern technologies to deliver impactful and efficient
+            solutions
+          </p>
+          {/* layer 1 */}
+          <div className='flex-between'>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/06_skill1.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/07_skill2.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/08_skill3.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/09_skill4.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+            <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
+              <Image
+                src='/images/10_skill5.png'
+                alt='typescript'
+                width={26.24}
+                height={30.81}
+                className='w-26.24 h-30.81'
+              />
+            </p>
+          </div>
+        </div>
+        {/* 5+ Years Experience */}
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
+          <p className='font-bold text-white md:text-[32px] dark:text-black'>
+            Why Choose Me
+          </p>
+          <p className='md:text-md font-regular text-white dark:text-black'>
+            Delivering excellence with innovative solutions and seamless
+            execution.
+          </p>
+          {/* layer 1 */}
+          <div className='absolute top-[50.126%] left-0 flex -translate-x-[13.22%] gap-10'>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-168 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              Fullstack Developer
+            </p>
+            <p className='h-36 w-154 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              Resposive Design
+            </p>
+          </div>
+          {/* layer 2 */}
+          <div className='absolute top-[63.29%] left-0 flex -translate-x-[13.22%] gap-10'>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-163 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              5 Years Experience
+            </p>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+          </div>
+          {/* layer 3 */}
+          <div className='absolute top-[76.455%] left-0 flex -translate-x-[13.22%] gap-10'>
+            <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              React Expert
+            </p>
+            <p className='h-36 w-116 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              Clean Code
+            </p>
+            <p className='h-36 w-206 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
+              Performance Optimation
+            </p>
+          </div>
+        </div>
       </div>
-      <div></div>
     </div>
   );
 }

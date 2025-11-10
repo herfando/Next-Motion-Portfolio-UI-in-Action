@@ -63,11 +63,31 @@ export default function Home() {
         <Card className='absolute top-[16.908%] right-1/2 h-136 w-144 translate-x-[19.427%] space-y-5 p-10 md:top-[39.07%] md:h-192 md:w-200 md:-translate-x-[100.69%] md:space-y-10 md:p-20'>
           <p className='text-[24px] font-bold md:text-[40px]'>5.0</p>
           <div className='flex-between'>
-            <Star size={24} color='orange' className='fill-[#F3993F]' />
-            <Star size={24} color='orange' className='fill-[#F3993F]' />
-            <Star size={24} color='orange' className='fill-[#F3993F]' />
-            <Star size={24} color='orange' className='fill-[#F3993F]' />
-            <Star size={24} color='orange' className='fill-[#F3993F]' />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
+            <Star
+              size={24}
+              color='orange'
+              className='w-22.83 h-21.8 fill-[#F3993F]'
+            />
           </div>
           <p className='text-xs md:text-sm'>Many Client Trust with me</p>
         </Card>

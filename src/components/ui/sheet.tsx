@@ -12,8 +12,18 @@ function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
 
   const [open, setOpen] = React.useState(false);
 
-   React.useEffect(() => {
+  React.useEffect(() => {
     if (isLargeIsh) {
       setOpen(false);
     }
   }, [isLargeIsh]);
+
+  return (
+    <SheetPrimitive.Root
+      data-slot='sheet'
+      open={open}
+      onOpenChange={setOpen}
+      {...props}
+    />
+  );
+}

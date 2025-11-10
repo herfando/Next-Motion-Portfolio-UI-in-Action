@@ -70,7 +70,7 @@ export default function About() {
           </div>
         </div>
         {/* Expert Skill */}
-        <div className='relative space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
+        <div className='relative space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#E6E8EC]'>
           <p className='font-bold text-white md:text-[32px] dark:text-black'>
             Expert Skill
           </p>
@@ -157,7 +157,7 @@ export default function About() {
           <div className='flex-between translate-y-9'>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/06_skill1.png'
+                src='/images/11_skill6.png'
                 alt='typescript'
                 width={26.24}
                 height={30.81}
@@ -166,7 +166,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/07_skill2.png'
+                src='/images/12_skill7.png'
                 alt='typescript'
                 width={26.24}
                 height={30.81}
@@ -175,7 +175,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/08_skill3.png'
+                src='/images/13_skill8.png'
                 alt='typescript'
                 width={26.24}
                 height={30.81}
@@ -184,7 +184,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/09_skill4.png'
+                src='/images/14_skill9.png'
                 alt='typescript'
                 width={26.24}
                 height={30.81}
@@ -193,7 +193,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/10_skill5.png'
+                src='/images/15_skill10.png'
                 alt='typescript'
                 width={26.24}
                 height={30.81}

@@ -245,7 +245,7 @@ export default function About() {
 
       {/* Coloumn 2 */}
       <div className='mt-40 flex gap-20'>
-        {/* Why Choosen Me */}
+        {/* Edwin Anderson */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#DCC6FF]'>
           <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-black'>
             <p>EDWIN</p> <p>ANDERSON</p>
@@ -258,10 +258,16 @@ export default function About() {
             src='/images/20_Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie 1.png'
           />
           {/* Button */}
-          <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer lg:flex'>
+          <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer lg:flex dark:bg-black dark:text-white'>
             <Mail className='size-20' />
             Hire Me
           </Button>
+        </div>
+        {/* Building Digital Products */}
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783'>
+          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-black'>
+            <p>EDWIN</p> <p>ANDERSON</p>
+          </div>
         </div>
       </div>
     </div>

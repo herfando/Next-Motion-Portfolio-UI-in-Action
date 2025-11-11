@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils';
 import React from 'react';
 import SkewMotion from './ui/skew-motion';
+import { h3, desc } from 'framer-motion/client';
 type FeatureCardProps = {
   icon: React.ReactNode;
   title: string;
@@ -51,3 +52,14 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
               marginTop: 'clamp(0.25rem, 0.66vw, 0.5rem)',
             }}
           ></h3>
+              {title}
+          </h3>
+          <p
+            className='font-regular text-neutral-400'
+            style={{
+              fontSize: 'clamp(0.5rem, calc((14 / 1208) * 100vw), 0.875rem)',
+              lineHeight:
+                'clamp(0.9375rem, calc((28 / 1208) * 100vw), 1.75rem)',
+            }}
+          >
+            {desc

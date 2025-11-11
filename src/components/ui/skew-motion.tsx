@@ -20,3 +20,17 @@ const SkewMotion: React.FC<SkewMotionProps> = ({
   asChild = false,
   ...motionProps
 }) => {
+    }) => {
+  const Comp = asChild ? MotionSlot : MotionDiv;
+  return (
+    <Comp
+      transition={{ duration, delay }}
+      animate={{ skewX: -7 }}
+      {...motionProps}
+    >
+      {children}
+    </Comp>
+  );
+};
+
+export default SkewMotion;

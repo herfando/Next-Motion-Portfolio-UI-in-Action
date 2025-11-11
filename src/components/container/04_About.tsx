@@ -265,8 +265,18 @@ export default function About() {
         </div>
         {/* Building Digital Products */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783'>
-          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-black'>
-            <p>EDWIN</p> <p>ANDERSON</p>
+          <div className='font-bold text-white md:text-[32px] dark:text-black'>
+            <p>Building Digital</p>
+            <p className='flex gap-5'>
+              Products
+              <Image
+                src='/icons/05_magicwand.svg'
+                alt='magicwand'
+                width={20}
+                height={20}
+                className='h-20 w-20 self-center dark:invert'
+              ></Image>
+            </p>
           </div>
         </div>
       </div>

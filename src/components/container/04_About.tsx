@@ -277,6 +277,13 @@ export default function About() {
                 className='h-20 w-20 self-center dark:invert'
               ></Image>
             </p>
+            <Image
+              src='/images/21_Round Pixel World Map.svg'
+              alt='pixel world map'
+              width={657.6}
+              height={411}
+              className='w-657.6 absolute top-0 left-0 h-411 self-center dark:invert'
+            ></Image>
           </div>
         </div>
       </div>

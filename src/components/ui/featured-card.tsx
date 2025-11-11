@@ -15,3 +15,10 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   className,
   animationDelay,
 }) => {
+     return (
+    <SkewMotion asChild delay={animationDelay}>
+      <div
+        className={cn(
+          'rounded-md bg-gradient-to-b from-[#0093DD] to-transparent p-0.25',
+          className
+        )}

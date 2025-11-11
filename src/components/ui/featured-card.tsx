@@ -27,3 +27,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
           borderRadius: 'clamp(0.25rem, 0.66vw, 0.5rem)',
         }}
       ></div>
+      div
+          className='rounded-md bg-neutral-900'
+          style={{
+            borderRadius: 'clamp(0.25rem, 0.66vw, 0.5rem)',
+            padding: 'clamp(0.5rem, 1.25vw, 1rem)',
+          }}

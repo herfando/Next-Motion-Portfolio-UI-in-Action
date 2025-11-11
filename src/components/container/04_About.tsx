@@ -6,7 +6,7 @@ import { Button } from '../ui/button';
 
 export default function About() {
   return (
-    <div className='custom-container relative z-3 h-1250 bg-white pt-40 md:pt-80 dark:bg-black'>
+    <div className='custom-container relative z-3 h-2430 w-full bg-white pt-40 md:h-1250 md:pt-80 dark:bg-black'>
       <div className='space-y-10'>
         <p className='text-md font-semibold text-black md:text-lg dark:text-white'>
           Hi, I’m Edwin Anderson 👋
@@ -22,7 +22,7 @@ export default function About() {
       </div>
 
       {/* Coloumn 1 */}
-      <div className='mt-40 flex space-x-20'>
+      <div className='mt-40 grid grid-cols-1 gap-20 md:grid-cols-3'>
         {/* Why Choosen Me */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(160,90,30,1)]'>
           <p className='font-bold text-white md:text-[32px]'>Why Choose Me</p>
@@ -240,7 +240,7 @@ export default function About() {
       </div>
 
       {/* Coloumn 2 */}
-      <div className='mt-40 flex gap-20'>
+      <div className='mt-40 grid grid-cols-1 gap-20 md:grid-cols-[381_783]'>
         {/* Edwin Anderson */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#2B1548]'>
           <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>

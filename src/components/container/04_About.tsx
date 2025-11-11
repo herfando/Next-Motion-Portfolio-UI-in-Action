@@ -282,8 +282,28 @@ export default function About() {
               alt='pixel world map'
               width={657.6}
               height={411}
-              className='w-657.6 absolute top-0 left-0 h-411 self-center dark:invert'
+              className='w-657.6 absolute top-0 left-[30.779%] h-411 self-center pr-113 pb-20 dark:invert'
             ></Image>
+          </div>
+          <div className='flex'>
+            <p className='font-bold text-white md:text-[48px] dark:text-black'>
+              50+
+              <span className='block text-[18px] font-medium'>
+                Global Client’s Handle
+              </span>
+            </p>
+            <p className='font-bold text-white md:text-[48px] dark:text-black'>
+              99%
+              <span className='block text-[18px] font-medium'>
+                Client Satisfaction Rate
+              </span>
+            </p>
+            <p className='font-bold text-white md:text-[48px] dark:text-black'>
+              100+
+              <span className='block text-[18px] font-medium'>
+                Project Delivered
+              </span>
+            </p>
           </div>
         </div>
       </div>

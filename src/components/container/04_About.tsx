@@ -1,7 +1,8 @@
 import { div } from 'framer-motion/client';
 import React from 'react';
-import { Star } from 'lucide-react';
+import { Mail, Star } from 'lucide-react';
 import Image from 'next/image';
+import { Button } from '../ui/button';
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
       </div>
 
       {/* Coloumn 1 */}
-      <div className='mt-40 flex space-x-20 bg-amber-400'>
+      <div className='mt-40 flex space-x-20'>
         {/* Why Choosen Me */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
           <p className='font-bold text-white md:text-[32px] dark:text-black'>
@@ -246,9 +247,9 @@ export default function About() {
       <div className='mt-40 flex gap-20'>
         {/* Why Choosen Me */}
         <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
-          <p className='font-bold text-[#F39C3F] md:text-[32px] dark:text-white'>
-            EDWIN <p>ANDERSON</p>
-          </p>
+          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
+            <p>EDWIN</p> <p>ANDERSON</p>
+          </div>
           <Image
             className='absolute top-[2.784%] left-0 h-384 w-381'
             width={381}
@@ -256,6 +257,11 @@ export default function About() {
             alt='image'
             src='/images/20_Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie 1.png'
           />
+          {/* Button */}
+          <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer lg:flex'>
+            <Mail className='size-20' />
+            Hire Me
+          </Button>
         </div>
       </div>
     </div>

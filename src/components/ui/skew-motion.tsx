@@ -12,3 +12,11 @@ interface SkewMotionProps extends HTMLMotionProps<'div'> {
 
 const MotionSlot = motion.create(Slot);
 const MotionDiv = motion.div;
+
+const SkewMotion: React.FC<SkewMotionProps> = ({
+  children,
+  duration = 0.5,
+  delay = 0,
+  asChild = false,
+  ...motionProps
+}) => {

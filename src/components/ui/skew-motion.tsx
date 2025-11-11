@@ -20,7 +20,6 @@ const SkewMotion: React.FC<SkewMotionProps> = ({
   asChild = false,
   ...motionProps
 }) => {
-    }) => {
   const Comp = asChild ? MotionSlot : MotionDiv;
   return (
     <Comp

@@ -33,3 +33,11 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             borderRadius: 'clamp(0.25rem, 0.66vw, 0.5rem)',
             padding: 'clamp(0.5rem, 1.25vw, 1rem)',
           }}
+           >
+          <div
+            className='bg-primary-300 flex-center aspect-square rounded-full shadow-[0_0_17px_rgba(0,147,221,0.6)] [&>*]:h-auto [&>*]:w-full'
+            style={{
+              width: 'clamp(1.38rem, 3.31vw, 2.5rem)',
+              padding: 'clamp(0.31rem, 0.83vw, 0.63rem)',
+            }}
+          ></div>

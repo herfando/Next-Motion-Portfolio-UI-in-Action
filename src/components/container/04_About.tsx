@@ -24,11 +24,9 @@ export default function About() {
       {/* Coloumn 1 */}
       <div className='mt-40 flex space-x-20'>
         {/* Why Choosen Me */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
-          <p className='font-bold text-white md:text-[32px] dark:text-black'>
-            Why Choose Me
-          </p>
-          <p className='md:text-md font-regular text-white dark:text-black'>
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(160,90,30,1)]'>
+          <p className='font-bold text-white md:text-[32px]'>Why Choose Me</p>
+          <p className='md:text-md font-regular text-white'>
             Delivering excellence with innovative solutions and seamless
             execution.
           </p>
@@ -73,10 +71,8 @@ export default function About() {
           </div>
         </div>
         {/* Expert Skill */}
-        <div className='relative space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#E6E8EC]'>
-          <p className='font-bold text-white md:text-[32px] dark:text-black'>
-            Expert Skill
-          </p>
+        <div className='relative space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#0F141C]'>
+          <p className='font-bold text-white md:text-[32px]'>Expert Skill</p>
           <div className='flex gap-5'>
             <Star
               size={24}
@@ -104,7 +100,7 @@ export default function About() {
               className='w-22.83 h-21.8 fill-[#F3993F]'
             />
           </div>
-          <p className='md:text-md font-regular text-white dark:text-black'>
+          <p className='md:text-md font-regular text-white'>
             Mastering modern technologies to deliver impactful and efficient
             solutions
           </p>
@@ -246,8 +242,8 @@ export default function About() {
       {/* Coloumn 2 */}
       <div className='mt-40 flex gap-20'>
         {/* Edwin Anderson */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#DCC6FF]'>
-          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-black'>
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#2B1548]'>
+          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
             <p>EDWIN</p> <p>ANDERSON</p>
           </div>
           <Image
@@ -264,8 +260,8 @@ export default function About() {
           </Button>
         </div>
         {/* Building Digital Products */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783'>
-          <div className='font-bold text-white md:text-[32px] dark:text-black'>
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783 dark:from-[#00142E] dark:to-[#002B5B]'>
+          <div className='font-bold text-white md:text-[32px]'>
             <p>Building Digital</p>
             <p className='flex gap-5'>
               Products
@@ -274,7 +270,7 @@ export default function About() {
                 alt='magicwand'
                 width={20}
                 height={20}
-                className='h-20 w-20 self-center dark:invert'
+                className='h-20 w-20 self-center'
               ></Image>
             </p>
             <Image
@@ -282,28 +278,81 @@ export default function About() {
               alt='pixel world map'
               width={657.6}
               height={411}
-              className='w-657.6 absolute top-0 left-[30.779%] h-411 self-center pr-113 pb-20 dark:invert'
+              className='w-657.6 absolute top-0 left-[30.779%] h-411 self-center pr-113 pb-20'
             ></Image>
           </div>
-          <div className='flex'>
-            <p className='font-bold text-white md:text-[48px] dark:text-black'>
+          {/* Detail Achievement */}
+          <div className='absolute flex space-x-39 text-white md:top-[68.607%] md:left-[4.086%]'>
+            <p className='font-bold md:text-[48px]'>
               50+
               <span className='block text-[18px] font-medium'>
                 Global Client’s Handle
               </span>
             </p>
-            <p className='font-bold text-white md:text-[48px] dark:text-black'>
+            <p className='font-bold md:text-[48px]'>
               99%
               <span className='block text-[18px] font-medium'>
                 Client Satisfaction Rate
               </span>
             </p>
-            <p className='font-bold text-white md:text-[48px] dark:text-black'>
+            <p className='font-bold md:text-[48px]'>
               100+
               <span className='block text-[18px] font-medium'>
                 Project Delivered
               </span>
             </p>
+          </div>
+          {/* Flag Country */}
+          {/* Indonesia */}
+          <div className='absolute top-[61.518%] left-[87.739%] flex space-x-4'>
+            <Image
+              src='/icons/06_Flag Indonesia.png'
+              alt='flag indonesia'
+              width={50}
+              height={16.38}
+              className='h-16.38 w-50'
+            ></Image>
+            <Image
+              src='/icons/09_Frame 1618873380.svg'
+              alt='dot'
+              width={10.67}
+              height={10.67}
+              className='h-10.67 w-10.67 self-start'
+            ></Image>
+          </div>
+          {/* USA */}
+          <div className='absolute top-[27.088%] left-[81.864%] flex space-x-4'>
+            <Image
+              src='/icons/07_Flag USA.png'
+              alt='flag USA'
+              width={50}
+              height={16.38}
+              className='h-16.38 w-50'
+            ></Image>
+            <Image
+              src='/icons/09_Frame 1618873380.svg'
+              alt='dot'
+              width={10.67}
+              height={10.67}
+              className='h-10.67 w-10.67 self-start'
+            ></Image>
+          </div>
+          {/* Germany */}
+          <div className='absolute top-[33.924%] left-[40.996%] flex space-x-4'>
+            <Image
+              src='/icons/08_Flag Germany.png'
+              alt='flag Germany'
+              width={50}
+              height={16.38}
+              className='h-16.38 w-50'
+            ></Image>
+            <Image
+              src='/icons/09_Frame 1618873380.svg'
+              alt='dot'
+              width={10.67}
+              height={10.67}
+              className='h-10.67 w-10.67 self-start'
+            ></Image>
           </div>
         </div>
       </div>

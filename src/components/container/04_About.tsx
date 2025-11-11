@@ -246,8 +246,8 @@ export default function About() {
       {/* Coloumn 2 */}
       <div className='mt-40 flex gap-20'>
         {/* Why Choosen Me */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[rgba(245,210,170,1)]'>
-          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
+        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#DCC6FF]'>
+          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-black'>
             <p>EDWIN</p> <p>ANDERSON</p>
           </div>
           <Image

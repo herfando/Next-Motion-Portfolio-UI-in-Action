@@ -22,9 +22,9 @@ export default function About() {
       </div>
 
       {/* Coloumn 1 */}
-      <div className='mt-40 grid grid-cols-1 gap-20 md:grid-cols-3'>
+      <div className='mt-40 grid grid-cols-1 justify-items-center gap-20 md:grid-cols-3'>
         {/* Why Choosen Me */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(160,90,30,1)]'>
+        <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(160,90,30,1)]'>
           <p className='font-bold text-white md:text-[32px]'>Why Choose Me</p>
           <p className='md:text-md font-regular text-white'>
             Delivering excellence with innovative solutions and seamless
@@ -71,7 +71,7 @@ export default function About() {
           </div>
         </div>
         {/* Expert Skill */}
-        <div className='relative space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#0F141C]'>
+        <div className='relative h-374 w-361 space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#0F141C]'>
           <p className='font-bold text-white md:text-[32px]'>Expert Skill</p>
           <div className='flex gap-5'>
             <Star

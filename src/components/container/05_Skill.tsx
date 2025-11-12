@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Skill() {
   return (
-    <section className='custom-container relative grid h-880 grid-cols-1 bg-amber-500 md:grid-cols-2'>
+    <section className='custom-container relative grid h-880 grid-cols-1 md:grid-cols-2'>
       {/* 1. HTML */}
       <div className='space-y-8'>
         <div className='flex gap-12'>

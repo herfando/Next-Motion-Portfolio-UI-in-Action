@@ -109,7 +109,7 @@ export default function About() {
           <div className='flex-between'>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/06_skill1.png'
+                src='/images/06_css.png'
                 alt='CSS icon'
                 width={26.24}
                 height={30.81}
@@ -118,7 +118,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/07_skill2.png'
+                src='/images/07_js.png'
                 alt='javascript icon'
                 width={26.24}
                 height={30.81}
@@ -127,7 +127,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/08_skill3.png'
+                src='/images/08_html.png'
                 alt='html icon'
                 width={26.24}
                 height={30.81}
@@ -136,7 +136,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/09_skill4.png'
+                src='/images/09_expressjs.png'
                 alt='express js icon'
                 width={26.24}
                 height={30.81}
@@ -145,7 +145,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/10_skill5.png'
+                src='/images/10_sequalize.png'
                 alt='sequalize icon'
                 width={26.24}
                 height={30.81}
@@ -157,7 +157,7 @@ export default function About() {
           <div className='flex-between translate-y-9'>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/11_skill6.png'
+                src='/images/11_ts.png'
                 alt='typescript icon'
                 width={26.24}
                 height={30.81}
@@ -166,7 +166,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/12_skill7.png'
+                src='/images/12_reactjs.png'
                 alt='ract js icon'
                 width={26.24}
                 height={30.81}
@@ -175,7 +175,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/13_skill8.png'
+                src='/images/13_docker.png'
                 alt='docker icon'
                 width={26.24}
                 height={30.81}
@@ -184,7 +184,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/14_skill9.png'
+                src='/images/14_postgreSQL.png'
                 alt='postgreSQL icon'
                 width={26.24}
                 height={30.81}
@@ -193,7 +193,7 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/15_skill10.png'
+                src='/images/15_mongoDB.png'
                 alt='mongo DB icon'
                 width={26.24}
                 height={30.81}

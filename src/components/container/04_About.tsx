@@ -1,4 +1,4 @@
-import { div } from 'framer-motion/client';
+'use client';
 import React from 'react';
 import { Mail, Star } from 'lucide-react';
 import Image from 'next/image';
@@ -70,6 +70,7 @@ export default function About() {
             </p>
           </div>
         </div>
+
         {/* Expert Skill */}
         <div className='relative h-374 w-361 space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#0F141C]'>
           <p className='font-bold text-white md:text-[32px]'>Expert Skill</p>
@@ -202,15 +203,15 @@ export default function About() {
           </div>
         </div>
         {/* 5+ Years Experience */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl md:h-395 md:w-381'>
+        <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl md:h-395 md:w-381'>
           <Image
             src='/images/16_5 years experience.png'
             alt='experience'
             width={381}
             height={395}
-            className='h-395 w-381'
+            className='h-374 w-361 md:h-395 md:w-381'
           />
-          <div className='absolute inset-0 top-[25.822%] place-items-center font-bold text-white md:text-[40px] dark:text-black'>
+          <div className='absolute inset-0 top-[25.822%] place-items-center text-[32px] font-bold text-white md:text-[40px] dark:text-black'>
             <p>5+ Years</p> <p>Experience</p>
           </div>
           <div className='flex'>
@@ -240,10 +241,10 @@ export default function About() {
       </div>
 
       {/* Coloumn 2 */}
-      <div className='mt-40 grid grid-cols-1 gap-20 md:grid-cols-[381_783]'>
+      <div className='mt-40 grid grid-cols-1 justify-items-center gap-20 md:grid-cols-[381_783]'>
         {/* Edwin Anderson */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#2B1548]'>
-          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
+        <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#2B1548]'>
+          <div className='translate-y-[40%] place-items-center -space-y-30 px-10 text-[64px] font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
             <p>EDWIN</p> <p>ANDERSON</p>
           </div>
           <Image
@@ -260,8 +261,8 @@ export default function About() {
           </Button>
         </div>
         {/* Building Digital Products */}
-        <div className='relative space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783 dark:from-[#00142E] dark:to-[#002B5B]'>
-          <div className='font-bold text-white md:text-[32px]'>
+        <div className='relative h-452 w-361 space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783 dark:from-[#00142E] dark:to-[#002B5B]'>
+          <div className='text-[28px] font-bold text-white md:text-[32px]'>
             <p>Building Digital</p>
             <p className='flex gap-5'>
               Products
@@ -282,22 +283,22 @@ export default function About() {
             ></Image>
           </div>
           {/* Detail Achievement */}
-          <div className='absolute flex space-x-39 text-white md:top-[68.607%] md:left-[4.086%]'>
-            <p className='font-bold md:text-[48px]'>
+          <div className='absolute flex flex-col space-x-39 text-white md:top-[68.607%] md:left-[4.086%] md:flex-row'>
+            <p className='text-[36px] font-bold md:text-[48px]'>
               50+
-              <span className='block text-[18px] font-medium'>
+              <span className='block text-[14px] font-medium md:text-[18px]'>
                 Global Client’s Handle
               </span>
             </p>
-            <p className='font-bold md:text-[48px]'>
+            <p className='text-[36px] font-bold md:text-[48px]'>
               99%
-              <span className='block text-[18px] font-medium'>
+              <span className='block text-[14px] font-medium md:text-[18px]'>
                 Client Satisfaction Rate
               </span>
             </p>
-            <p className='font-bold md:text-[48px]'>
+            <p className='text-[36px] font-bold md:text-[48px]'>
               100+
-              <span className='block text-[18px] font-medium'>
+              <span className='block text-[14px] font-medium md:text-[18px]'>
                 Project Delivered
               </span>
             </p>

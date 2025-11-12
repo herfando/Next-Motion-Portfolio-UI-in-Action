@@ -24,7 +24,6 @@ export default function Navbar() {
           />
           Your Logo
         </div>
-
         {/* 2. Nav */}
         <ul className='text-md font-regular spacing-4xl ml-99 hidden w-544 items-center justify-between gap-32 p-8 lg:flex'>
           {navigationData.map((item) => (

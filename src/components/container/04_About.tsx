@@ -261,7 +261,7 @@ export default function About() {
           </Button>
         </div>
         {/* Building Digital Products */}
-        <div className='relative h-452 w-361 space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] p-24 md:h-395 md:w-783 dark:from-[#00142E] dark:to-[#002B5B]'>
+        <div className='relative h-452 w-361 space-y-20 overflow-hidden rounded-2xl bg-linear-to-r from-[#002C6E] to-[#0C4EAF] px-18 py-32 md:h-395 md:w-783 md:p-24 dark:from-[#00142E] dark:to-[#002B5B]'>
           <div className='text-[28px] font-bold text-white md:text-[32px]'>
             <p>Building Digital</p>
             <p className='flex gap-5'>
@@ -274,16 +274,24 @@ export default function About() {
                 className='h-20 w-20 self-center'
               ></Image>
             </p>
+            {/* Maps */}
             <Image
               src='/images/21_Round Pixel World Map.svg'
               alt='pixel world map'
               width={657.6}
               height={411}
-              className='w-657.6 absolute top-0 left-[30.779%] h-411 self-center pr-113 pb-20'
+              className='w-657.6 absolute top-0 left-[30.779%] hidden h-411 self-center pr-113 pb-20 md:block'
+            ></Image>
+            <Image
+              src='/images/22_Round Pixel World Map-mobile.svg'
+              alt='pixel world map'
+              width={365}
+              height={367}
+              className='absolute top-[18.14%] left-0 block h-367 w-365 self-center md:hidden'
             ></Image>
           </div>
           {/* Detail Achievement */}
-          <div className='absolute flex flex-col space-x-39 text-white md:top-[68.607%] md:left-[4.086%] md:flex-row'>
+          <div className='absolute flex flex-col space-y-28 space-x-39 text-white md:top-[68.607%] md:left-[4.086%] md:flex-row'>
             <p className='text-[36px] font-bold md:text-[48px]'>
               50+
               <span className='block text-[14px] font-medium md:text-[18px]'>
@@ -305,7 +313,7 @@ export default function About() {
           </div>
           {/* Flag Country */}
           {/* Indonesia */}
-          <div className='absolute top-[61.518%] left-[87.739%] flex space-x-4'>
+          <div className='absolute top-[75.66%] left-[72.022%] flex space-x-4 md:top-[61.518%] md:left-[87.739%]'>
             <Image
               src='/icons/06_Flag Indonesia.png'
               alt='flag indonesia'
@@ -322,7 +330,7 @@ export default function About() {
             ></Image>
           </div>
           {/* USA */}
-          <div className='absolute top-[27.088%] left-[81.864%] flex space-x-4'>
+          <div className='top:left-[81.864%] absolute top-[46.017%] left-[77.285%] flex space-x-4 md:top-[27.088%]'>
             <Image
               src='/icons/07_Flag USA.png'
               alt='flag USA'
@@ -339,7 +347,7 @@ export default function About() {
             ></Image>
           </div>
           {/* Germany */}
-          <div className='absolute top-[33.924%] left-[40.996%] flex space-x-4'>
+          <div className='absolute top-[29.20%] left-[50.969%] flex space-x-4 md:top-[33.924%] md:left-[40.996%]'>
             <Image
               src='/icons/08_Flag Germany.png'
               alt='flag Germany'

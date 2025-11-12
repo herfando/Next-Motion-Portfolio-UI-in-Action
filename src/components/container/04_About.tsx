@@ -110,7 +110,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/06_skill1.png'
-                alt='typescript'
+                alt='CSS icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -119,7 +119,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/07_skill2.png'
-                alt='typescript'
+                alt='javascript icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -128,7 +128,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/08_skill3.png'
-                alt='typescript'
+                alt='html icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -137,7 +137,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/09_skill4.png'
-                alt='typescript'
+                alt='express js icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -146,7 +146,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/10_skill5.png'
-                alt='typescript'
+                alt='sequalize icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -158,7 +158,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/11_skill6.png'
-                alt='typescript'
+                alt='typescript icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -167,7 +167,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/12_skill7.png'
-                alt='typescript'
+                alt='ract js icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -176,7 +176,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/13_skill8.png'
-                alt='typescript'
+                alt='docker icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -185,7 +185,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/14_skill9.png'
-                alt='typescript'
+                alt='postgreSQL icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -194,7 +194,7 @@ export default function About() {
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
                 src='/images/15_skill10.png'
-                alt='typescript'
+                alt='mongo DB icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'

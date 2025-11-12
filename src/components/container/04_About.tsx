@@ -22,7 +22,7 @@ export default function About() {
       </div>
 
       {/* Coloumn 1 */}
-      <div className='mt-40 grid grid-cols-1 justify-items-center gap-20 md:grid-cols-3'>
+      <div className='mt-40 grid grid-cols-1 justify-items-center gap-20 lg:grid-cols-3'>
         {/* Why Choosen Me */}
         <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[rgba(225,123,14,1)] p-24 md:h-395 md:w-381 dark:bg-[rgba(160,90,30,1)]'>
           <p className='font-bold text-white md:text-[32px]'>Why Choose Me</p>
@@ -241,7 +241,7 @@ export default function About() {
       </div>
 
       {/* Coloumn 2 */}
-      <div className='mt-40 grid grid-cols-1 justify-items-center gap-20 md:grid-cols-[381_783]'>
+      <div className='mt-40 grid grid-cols-1 justify-items-center gap-20 lg:grid-cols-[381_783]'>
         {/* Edwin Anderson */}
         <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#2B1548]'>
           <div className='translate-y-[40%] place-items-center -space-y-30 px-10 text-[64px] font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>

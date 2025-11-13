@@ -8,7 +8,7 @@ export default function Skill() {
       <div className='pt-40 pb-48 text-center text-[48px] font-bold dark:text-white'>
         My Profesional Skill
       </div>
-      <div className='custom-container relative grid h-880 grid-cols-1 place-items-center gap-20 md:grid-cols-2'>
+      <div className='custom-container item relative grid h-880 grid-cols-1 place-items-center space-y-20 gap-x-20 md:grid-cols-2'>
         {/* 1. HTML */}
         <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'>
           <div className='flex gap-12'>
@@ -30,7 +30,7 @@ export default function Skill() {
           <ProgressBar percentage={90} duration={2} />
         </div>
         {/* 2.CSS */}
-        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[#A5A5A533]'>
+        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'>
           <div className='flex gap-12'>
             <p className='dark:black grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#F5F5F5]'>
               <Image
@@ -50,7 +50,7 @@ export default function Skill() {
           <ProgressBar percentage={90} duration={2} />
         </div>
         {/* 3.Javascript */}
-        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[#A5A5A533]'>
+        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'>
           <div className='flex gap-12'>
             <p className='dark:black grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#F5F5F5]'>
               <Image
@@ -71,7 +71,7 @@ export default function Skill() {
           <ProgressBar percentage={90} duration={2} />
         </div>
         {/* 4.React JS */}
-        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[#A5A5A533]'>
+        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'>
           <div className='flex gap-12'>
             <p className='dark:black grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#F5F5F5]'>
               <Image
@@ -92,7 +92,7 @@ export default function Skill() {
           <ProgressBar percentage={90} duration={2} />
         </div>
         {/* 5.Mongo DB */}
-        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[#A5A5A533]'>
+        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'>
           <div className='flex gap-12'>
             <p className='dark:black grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#F5F5F5]'>
               <Image
@@ -112,7 +112,7 @@ export default function Skill() {
           <ProgressBar percentage={90} duration={2} />
         </div>
         {/* 6.Docker */}
-        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[#A5A5A533]'>
+        <div className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'>
           <div className='flex gap-12'>
             <p className='dark:black grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#F5F5F5]'>
               <Image

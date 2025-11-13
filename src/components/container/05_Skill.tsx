@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import ProgressBar from '../ui/motion-progressbar';
 
 export default function Skill() {
   return (
@@ -22,6 +23,7 @@ export default function Skill() {
           Building the structure of web pages with semantic markup for
           accessibility .
         </p>
+        <ProgressBar percentage={90} duration={2} />
       </div>
       {/* 2.CSS */}
       <div className='space-y-8'>

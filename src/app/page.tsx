@@ -4,6 +4,7 @@ import Banner from '@/components/container/03_Banner';
 import About from '@/components/container/04_About';
 import Skill from '@/components/container/05_Skill';
 import WhyChooseMe from '@/components/container/06_Why_chooseme';
+import MyLatestWork from '@/components/container/07_My_latestwork';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Skill />
       <WhyChooseMe />
+      <MyLatestWork />
     </>
   );
 };

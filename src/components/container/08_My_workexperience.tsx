@@ -8,16 +8,89 @@ export default function MyWorkExperience() {
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Work Experience
       </h2>
-      <div className='flex h-972 w-full justify-center space-y-68 space-x-135 bg-amber-500 md:h-578'>
-        <div>
+      <div className='grid h-972 w-full grid-cols-2 justify-center space-y-64 bg-amber-500 md:h-578 md:grid-cols-[152_80_55_1fr]'>
+        {/* colom 1 */}
+        <div className='w-152 space-y-12'>
           <Image
             src='/images/29_trustpilot.png'
             alt='trustpilot company'
             width={152}
             height={48}
-            className='h-48 w-152'
-          ></Image>
+            className='h-48 w-152 object-contain'
+          />
+          <p className='font-semibold md:text-xl'>Trustpilot</p>
+          <p className='md: text-md'>2021-2024</p>
         </div>
+        <div></div>
+        {/* colom 2 */}
+        <div className='bg-amber-400'>
+          <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] md:h-40 md:w-40'>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+          </div>
+        </div>
+        {/* colom 3 */}
+        <div>
+          <h3 className='font-semibold text-black md:text-[20px] dark:text-white'>
+            Frontend Developer
+          </h3>
+          <p className='md:tet-[16px] text-gray-800'>
+            Built responsive web interfaces using modern frameworks like
+            React.js, ensuring seamless integration with backend systems.
+            Optimized performance, implemented accessible designs, and delivered
+            clean, reusable code to enhance user experience and scalability.
+          </p>
+        </div>
+        {/* colom 1 */}
+        <div className='w-152 space-y-12'>
+          <Image
+            src='/images/29_trustpilot.png'
+            alt='trustpilot company'
+            width={152}
+            height={48}
+            className='h-48 w-152 object-contain'
+          />
+          <p className='font-semibold md:text-xl'>Trustpilot</p>
+          <p className='md: text-md'>2021-2024</p>
+        </div>
+        <div></div>
+        {/* colom 2 */}
+        <div className='bg-amber-400'>
+          <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] md:h-40 md:w-40'>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+          </div>
+        </div>
+        {/* colom 3 */}
+        <div>
+          <h3 className='font-semibold text-black md:text-[20px] dark:text-white'>
+            Frontend Developer
+          </h3>
+          <p className='md:tet-[16px] text-gray-800'>
+            Built responsive web interfaces using modern frameworks like
+            React.js, ensuring seamless integration with backend systems.
+            Optimized performance, implemented accessible designs, and delivered
+            clean, reusable code to enhance user experience and scalability.
+          </p>
+        </div>
+        {/* colom 1 */}
+        <div className='w-152 space-y-12'>
+          <Image
+            src='/images/29_trustpilot.png'
+            alt='trustpilot company'
+            width={152}
+            height={48}
+            className='h-48 w-152 object-contain'
+          />
+          <p className='font-semibold md:text-xl'>Trustpilot</p>
+          <p className='md: text-md'>2021-2024</p>
+        </div>
+        <div></div>
+        {/* colom 2 */}
+        <div className='bg-amber-400'>
+          <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] md:h-40 md:w-40'>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+          </div>
+        </div>
+        {/* colom 3 */}
         <div>
           <h3 className='font-semibold text-black md:text-[20px] dark:text-white'>
             Frontend Developer

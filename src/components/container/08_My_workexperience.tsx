@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function MyWorkExperience() {
   return (
@@ -7,8 +8,16 @@ export default function MyWorkExperience() {
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Work Experience
       </h2>
-      <div className='flex h-972 w-full justify-center bg-amber-500 md:h-578'>
-        <div></div>
+      <div className='flex h-972 w-full justify-center space-y-68 space-x-135 bg-amber-500 md:h-578'>
+        <div>
+          <Image
+            src='/images/29_trustpilot.png'
+            alt='trustpilot company'
+            width={152}
+            height={48}
+            className='h-48 w-152'
+          ></Image>
+        </div>
         <div>
           <h3 className='font-semibold text-black md:text-[20px] dark:text-white'>
             Frontend Developer

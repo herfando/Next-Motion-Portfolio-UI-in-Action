@@ -259,19 +259,6 @@ html {
   }
 }
 
-.custom-dashed {
-  border: 2px dashed transparent;
-  border-radius: 9999px; /* sama dengan rounded-full */
-  border-image: repeating-linear-gradient(
-    to right,
-    #a4a7ae 0,
-    #a4a7ae 4px,
-    transparent 4px,
-    transparent 8px
-  );
-  border-image-slice: 1;
-}
-
 body {
   @apply bg-background text-foreground;
 

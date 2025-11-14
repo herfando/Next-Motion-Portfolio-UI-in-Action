@@ -9,6 +9,7 @@ export default function MyWorkExperience() {
         My Work Experience
       </h2>
       <div className='grid h-972 w-full grid-cols-2 justify-center space-y-64 bg-amber-500 md:h-578 md:grid-cols-[152_80_55_1fr]'>
+        {/* Trustpilot */}
         {/* colom 1 */}
         <div className='w-152 space-y-12'>
           <Image
@@ -40,16 +41,17 @@ export default function MyWorkExperience() {
             clean, reusable code to enhance user experience and scalability.
           </p>
         </div>
+        {/* Postman */}
         {/* colom 1 */}
         <div className='w-152 space-y-12'>
           <Image
-            src='/images/29_trustpilot.png'
-            alt='trustpilot company'
+            src='/images/30_postman.png'
+            alt='postman company'
             width={152}
             height={48}
             className='h-48 w-152 object-contain'
           />
-          <p className='font-semibold md:text-xl'>Trustpilot</p>
+          <p className='font-semibold md:text-xl'>Postman</p>
           <p className='md: text-md'>2021-2024</p>
         </div>
         <div></div>
@@ -71,16 +73,17 @@ export default function MyWorkExperience() {
             clean, reusable code to enhance user experience and scalability.
           </p>
         </div>
+        {/* Spotify */}
         {/* colom 1 */}
         <div className='w-152 space-y-12'>
           <Image
-            src='/images/29_trustpilot.png'
-            alt='trustpilot company'
+            src='/images/31_spotify.png'
+            alt='Spotify company'
             width={152}
             height={48}
             className='h-48 w-152 object-contain'
           />
-          <p className='font-semibold md:text-xl'>Trustpilot</p>
+          <p className='font-semibold md:text-xl'>Spotify</p>
           <p className='md: text-md'>2021-2024</p>
         </div>
         <div></div>

@@ -5,6 +5,7 @@ import About from '@/components/container/04_About';
 import Skill from '@/components/container/05_Skill';
 import WhyChooseMe from '@/components/container/06_Why_chooseme';
 import MyLatestWork from '@/components/container/07_My_latestwork';
+import MyWorkExperience from '@/components/container/08_My_workexperience';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Skill />
       <WhyChooseMe />
       <MyLatestWork />
+      <MyWorkExperience />
     </>
   );
 };

@@ -1,77 +1,85 @@
 import React from 'react';
-import {
-  FaPhoneAlt,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaPaperPlane,
-} from 'react-icons/fa';
+import Image from 'next/image';
+import { Button } from '../ui/button';
 
-const ContactMe = () => {
+export default function ContactMe() {
   return (
-    <section className='w-full overflow-hidden bg-white px-6 py-16 text-gray-800'>
-      <div className='mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 md:grid-cols-2'>
-        {/* Left Side */}
-        <div className='order-2 space-y-6 md:order-1'>
-          <h2 className='text-3xl font-bold text-purple-700'>
+    <section className='custom-container h-auto pt-40 pb-64'>
+      <div className='flex flex-wrap justify-between space-y-20'>
+        {/* left coloumn */}
+        <div className='h-336 w-361 space-y-24 md:h-422 md:w-453 md:space-y-32'>
+          <h2 className='text-[32px] font-bold md:text-[48px]'>
             I've been waiting for you.
           </h2>
-          <p className='text-lg text-gray-600'>
-            Fill in the form or
-            <br />
-            Send us an email
+          <p className='text-md md:text-lg'>
+            Fill in the form or Send us an email
           </p>
-
-          <div className='space-y-4'>
-            <div className='flex items-center gap-4'>
-              <FaPhoneAlt className='text-purple-700' />
-              <span className='text-gray-700'>+62 1234567890</span>
+          {/* handphone */}
+          <div className='flex space-x-16'>
+            <div className='flex h-40 w-40 items-center justify-center rounded-full bg-[#F3EBFF] md:h-48 md:w-48'>
+              <Image
+                src='/icons/13_phone-01.png'
+                alt='phone'
+                width={11.67}
+                height={16.67}
+                className='w-11.67 h-16.67 md:h-24 md:w-24'
+              ></Image>
             </div>
-            <div className='flex items-center gap-4'>
-              <FaEnvelope className='text-purple-700' />
-              <span className='text-gray-700'>edwinanderson@email.com</span>
+            <p className='text-md h-30 self-center md:text-lg'>
+              +62 1234567890
+            </p>
+          </div>
+          {/* email */}
+          <div className='flex space-x-16'>
+            <div className='flex h-40 w-40 items-center justify-center rounded-full bg-[#F3EBFF] md:h-48 md:w-48'>
+              <Image
+                src='/icons/14_mail-01.png'
+                alt='phone'
+                width={11.67}
+                height={16.67}
+                className='w-11.67 h-16.67 md:h-24 md:w-24'
+              ></Image>
             </div>
-            <div className='flex items-center gap-4'>
-              <FaMapMarkerAlt className='text-purple-700' />
-              <span className='text-gray-700'>Jakarta, Indonesia</span>
+            <p className='text-md h-30 self-center md:text-lg'>
+              edwinanderson@email.com
+            </p>
+          </div>
+          {/* marker */}
+          <div className='flex space-x-16'>
+            <div className='flex h-40 w-40 items-center justify-center rounded-full bg-[#F3EBFF] md:h-48 md:w-48'>
+              <Image
+                src='/icons/15_marker-pin-01.png'
+                alt='phone'
+                width={11.67}
+                height={16.67}
+                className='w-11.67 h-16.67 md:h-24 md:w-24'
+              ></Image>
             </div>
+            <p className='text-md h-30 self-center md:text-lg'>
+              Jakarta, Indonesia
+            </p>
           </div>
         </div>
-
-        {/* Right Side */}
-        <form className='order-1 space-y-6 rounded-lg bg-gray-50 p-8 shadow-md md:order-2'>
-          <h3 className='text-2xl font-semibold text-gray-800'>
-            Send a Message
-          </h3>
-
-          <div className='space-y-4'>
-            <input
-              type='text'
-              placeholder='Enter your name'
-              className='w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:outline-none'
-            />
-            <input
-              type='email'
-              placeholder='Enter your email'
-              className='w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:outline-none'
-            />
-            <textarea
-              rows={5}
-              placeholder='Enter your message'
-              className='w-full resize-none rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:outline-none'
-            />
+        {/* right coloumn */}
+        <div className='h-494 w-361 p-32 font-semibold md:h-645 md:w-537 md:text-[24px]'>
+          <h2>Send a Message</h2>
+          <div className='pb-8'>
+            <p className='md:text-md font-semibold'>Name</p>
+            <div className='h-56 w-473 rounded-2xl border border-[#E9EAEB]'></div>
           </div>
-
-          <button
-            type='submit'
-            className='flex items-center gap-2 rounded-md bg-purple-700 px-6 py-3 text-white transition hover:bg-purple-800'
-          >
-            <FaPaperPlane />
+          <div className='pb-8'>
+            <p className='md:text-md font-semibold'>Email</p>
+            <div className='h-56 w-473 rounded-2xl border border-[#E9EAEB]'></div>
+          </div>
+          <div className='pb-24'>
+            <p className='md:text-md font-semibold'>Message</p>
+            <div className='h-180 w-473 rounded-2xl border border-[#E9EAEB]'></div>
+          </div>
+          <Button className='h-56 w-473 self-end rounded-full bg-[#6600EB] text-black dark:text-white'>
             Submit
-          </button>
-        </form>
+          </Button>
+        </div>
       </div>
     </section>
   );
-};
-
-export default ContactMe;
+}

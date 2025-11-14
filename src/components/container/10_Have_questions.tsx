@@ -66,7 +66,7 @@ export default function HaveQuestions() {
             <div
               key={item.id}
               className={`rounded-lg border px-6 py-4 transition-all ${
-                isOpen ? 'border-[#8B32FF] bg-[#F9F5FF]' : 'border-gray-300'
+                isOpen ? 'border-[#8B32FF]' : 'border-gray-300'
               }`}
             >
               <button

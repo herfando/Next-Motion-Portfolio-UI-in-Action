@@ -24,7 +24,7 @@ export default function Banner() {
           {items.map((text, i) => (
             <React.Fragment key={i}>
               <Image
-                src='/icons/05_sharp_rectangle.png'
+                src='/icons/04_sharp_rectangle.png'
                 alt='icons'
                 width={48}
                 height={52.5}

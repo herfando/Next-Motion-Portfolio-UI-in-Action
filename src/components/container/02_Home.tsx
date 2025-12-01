@@ -35,7 +35,7 @@ export default function Home() {
 
       {/* Picture Hero */}
       <Image
-        src='/images/Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie dekstop1.png'
+        src='/images/01_Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie dekstop.png'
         alt='Hero Image'
         width={763}
         height={763}

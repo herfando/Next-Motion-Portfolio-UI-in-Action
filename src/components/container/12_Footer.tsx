@@ -5,7 +5,7 @@ import { section } from 'framer-motion/client';
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <section className='bg-primary-dark h-auto w-full flex-col justify-between pt-40 pb-40 text-white dark:bg-black'>
+    <section className='h-auto w-full flex-col justify-between bg-[#10242a] pt-40 pb-40 text-white dark:bg-black'>
       <div className='custom-container flex-between h-auto w-full flex-wrap space-y-20 pt-40 pb-40 md:space-y-0 md:pt-0 md:pb-0'>
         <div className='flex flex-wrap gap-16'>
           {/* Your Logo */}

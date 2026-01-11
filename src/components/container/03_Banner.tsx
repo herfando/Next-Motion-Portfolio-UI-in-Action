@@ -13,7 +13,7 @@ const items = [
 
 export default function Banner() {
   return (
-    <div className='h-11xl relative z-9 bg-[linear-gradient(180deg,rgba(22,1,49,1)_0%,rgba(22,1,49,1)_50%,white_50%,white_100%)] dark:bg-[linear-gradient(180deg,black_0%,black_100%)]'>
+    <div className='h-11xl absolute z-9 bg-[linear-gradient(180deg,rgba(22,1,49,1)_0%,rgba(22,1,49,1)_50%,white_50%,white_100%)] dark:bg-[linear-gradient(180deg,black_0%,black_100%)]'>
       <MotionWrapper
         asChild
         initial={{ rotate: -1.5 }}

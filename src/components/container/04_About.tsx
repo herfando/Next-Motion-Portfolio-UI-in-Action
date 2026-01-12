@@ -3,13 +3,14 @@ import React from 'react';
 import { Mail, Star } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '../ui/button';
+import { div } from 'framer-motion/client';
 
 export default function About() {
   return (
-    <div className='custom-container relative z-3 h-auto w-full bg-white pt-40 md:pt-80 dark:bg-black'>
+    <div className='custom-container relative z-3 h-auto w-full bg-white pt-100 md:pt-150 dark:bg-black'>
       <div className='space-y-10'>
         <p className='text-md font-semibold text-black md:text-lg dark:text-white'>
-          Hi, I’m Edwin Anderson 👋
+          Hi, I’m Herfando 👋
         </p>
         <p className='text-[20px] font-semibold text-black md:text-[32px] dark:text-white'>
           Building digital products with a focus on crafting visually engaging
@@ -33,10 +34,10 @@ export default function About() {
           {/* layer 1 */}
           <div className='absolute top-[50.126%] left-0 flex -translate-x-[13.22%] gap-10'>
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
+              React & Next.js
             </p>
             <p className='h-36 w-168 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              Fullstack Developer
+              Frontend Developer
             </p>
             <p className='h-36 w-154 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               Resposive Design
@@ -45,22 +46,22 @@ export default function About() {
           {/* layer 2 */}
           <div className='absolute top-[63.29%] left-0 flex -translate-x-[13.22%] gap-10'>
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
+              React & Next.js
             </p>
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
+              React & Next.js
             </p>
             <p className='h-36 w-163 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              5 Years Experience
+              Modern Web Stack
             </p>
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
+              React & Next.js
             </p>
           </div>
           {/* layer 3 */}
           <div className='absolute top-[76.455%] left-0 flex -translate-x-[13.22%] gap-10'>
             <p className='h-36 w-119 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              React Expert
+              React & Next.js
             </p>
             <p className='h-36 w-116 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               Clean Code
@@ -71,9 +72,9 @@ export default function About() {
           </div>
         </div>
 
-        {/* Expert Skill */}
+        {/* Skill */}
         <div className='relative h-374 w-361 space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-381 dark:bg-[#0F141C]'>
-          <p className='font-bold text-white md:text-[32px]'>Expert Skill</p>
+          <p className='font-bold text-white md:text-[32px]'>Skill</p>
           <div className='flex gap-5'>
             <Star
               size={24}
@@ -102,7 +103,7 @@ export default function About() {
             />
           </div>
           <p className='md:text-md font-regular text-white'>
-            Mastering modern technologies to deliver impactful and efficient
+            Modern technologies skills to deliver impactful and efficient
             solutions
           </p>
           {/* layer 1 */}
@@ -145,8 +146,8 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/10_sequalize.png'
-                alt='sequalize icon'
+                src='/images/10_tanstack.png'
+                alt='tanstack icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -175,8 +176,8 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/13_docker.png'
-                alt='docker icon'
+                src='/images/13_nextjs.svg'
+                alt='nextjs icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -184,8 +185,8 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/14_postgreSQL.png'
-                alt='postgreSQL icon'
+                src='/images/14_motion.png'
+                alt='motion icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'
@@ -193,8 +194,8 @@ export default function About() {
             </p>
             <p className='grid h-[52.58] w-[52.58] place-items-center rounded-full bg-[#252B37] dark:bg-white'>
               <Image
-                src='/images/15_mongoDB.png'
-                alt='mongo DB icon'
+                src='/images/15_redux.svg'
+                alt='redux icon'
                 width={26.24}
                 height={30.81}
                 className='w-26.24 h-30.81'

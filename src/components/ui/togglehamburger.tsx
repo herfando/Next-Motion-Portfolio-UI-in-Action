@@ -44,9 +44,7 @@ export default function ToggleHamburger({}) {
       {/* Menu mobile muncul setelah diklik */}
       <div
         className={`fixed top-0 left-0 z-10 h-full w-full transform bg-white text-black transition-transform duration-1000 ease-in-out lg:hidden dark:bg-black dark:text-white ${
-          isOpen
-            ? 'translate-y-0' // /* TRANSLATE HERE: menu muncul */
-            : '-translate-y-full' // /* TRANSLATE HERE: menu geser keluar */
+          isOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
         <div className='custom-container flex-between h-80 lg:h-85'>
@@ -68,7 +66,13 @@ export default function ToggleHamburger({}) {
             />
             Your Logo
           </div>
-          <div className='fixed top-96 right-0 h-[calc(100vh-64)] w-full flex-col bg-white text-black lg:hidden dark:bg-black dark:text-white'>
+
+          {/* Child menu tetap fixed tapi ikut translate-y parent */}
+          <div
+            className={`fixed top-76 right-0 h-[calc(100vh-64)] w-full transform flex-col bg-white text-black transition-transform duration-1000 ease-in-out lg:hidden dark:bg-black dark:text-white ${
+              isOpen ? 'translate-y-0' : '-translate-y-full'
+            }`}
+          >
             <ul className='font-regular text-md flex flex-col gap-16 p-16'>
               {navigationData.map((item) => (
                 <li key={item.label} className='hover:text-blue-46 h-46'>

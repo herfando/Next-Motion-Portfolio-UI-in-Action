@@ -203,7 +203,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        {/* 5+ Years Experience */}
+        {/* My Experience */}
         <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl md:h-395 md:w-381'>
           <Image
             src='/images/16_5 years experience.png'
@@ -213,29 +213,29 @@ export default function About() {
             className='h-374 w-361 md:h-395 md:w-381'
           />
           <div className='absolute inset-0 top-[25.822%] place-items-center text-[32px] font-bold text-white md:text-[40px] dark:text-black'>
-            <p>5+ Years</p> <p>Experience</p>
+            <p>My</p> <p>Experience</p>
           </div>
           <div className='flex'>
             <Image
-              src='/images/17_experience.png'
+              src='/images/23_Foody.png'
               alt='experience1'
               width={95}
               height={71}
-              className='absolute inset-0 top-[74.936%] left-[9.448%] h-71 w-95'
+              className='absolute inset-0 top-[74.936%] left-[9.448%] h-71 w-95 rounded-sm border border-white object-cover'
             />
             <Image
-              src='/images/18_experience2.png'
+              src='/images/24_movie2.png'
               alt='experience1'
               width={95}
               height={71}
-              className='absolute inset-0 top-[74.936%] left-[37.532%] h-71 w-95'
+              className='absolute inset-0 top-[74.936%] left-[37.532%] h-71 w-95 rounded-sm border border-white object-cover'
             />
             <Image
-              src='/images/19_experience3.png'
+              src='/images/25_ecommerce.png'
               alt='experience1'
               width={95}
               height={71}
-              className='absolute inset-0 top-[74.936%] left-[65.616%] h-71 w-95'
+              className='absolute inset-0 top-[74.936%] left-[65.616%] h-71 w-95 rounded-sm border border-white object-cover'
             />
           </div>
         </div>
@@ -246,17 +246,17 @@ export default function About() {
         {/* Edwin Anderson */}
         <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-381 dark:bg-[#2B1548]'>
           <div className='translate-y-[40%] place-items-center -space-y-30 px-10 text-[64px] font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
-            <p>EDWIN</p> <p>ANDERSON</p>
+            <p></p> <p>FANDO</p>
           </div>
           <Image
-            className='absolute top-[2.784%] left-0 h-384 w-381'
+            className='absolute top-[0%] left-0 h-600 w-381 object-cover'
             width={381}
             height={384}
             alt='image'
-            src='/images/20_Cheerful Asian Young Man with Stylish Glasses and Purple Hoodie 1.png'
+            src='/images/02_Fando4.png'
           />
           {/* Button */}
-          <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer lg:flex dark:bg-black dark:text-white'>
+          <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full border border-[text-[#2a9e8b]] bg-white text-sm font-extrabold text-[#2a9e8b] hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white lg:flex dark:bg-black dark:text-white'>
             <Mail className='size-20' />
             Hire Me
           </Button>

@@ -18,20 +18,20 @@ export default function MyLatestWork() {
               Dashboard
             </div>
             <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2024
+              2025
             </div>
           </div>
           <Image
-            src='/images/23_work1.png'
+            src='/images/23_foody.png'
             alt='task management solution'
             width={381}
             height={284}
-            className='h-269.09 w-361 md:h-284 md:w-381'
+            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
           ></Image>
           <p className='text-[16px] font-semibold md:text-[20px]'>
             Dashboard SaaS Task Management
           </p>
-          <Link href='#'>
+          <Link href='https://restaurant-web-mpv.vercel.app/'>
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
               <ArrowRight
@@ -49,20 +49,20 @@ export default function MyLatestWork() {
               Dashboard
             </div>
             <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2024
+              2025
             </div>
           </div>
           <Image
-            src='/images/24_work2.png'
+            src='/images/24_movie2.png'
             alt='magic studio demo'
             width={381}
             height={284}
-            className='h-269.09 w-361 md:h-284 md:w-381'
+            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
           ></Image>
           <p className='text-[16px] font-semibold md:text-[20px]'>
             Dashboard SaaS Task Management
           </p>
-          <Link href='#'>
+          <Link href='https://movie-app-next-xi.vercel.app/'>
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
               <ArrowRight
@@ -80,20 +80,20 @@ export default function MyLatestWork() {
               Dashboard
             </div>
             <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2024
+              2025
             </div>
           </div>
           <Image
-            src='/images/25_work3.png'
+            src='/images/25_ecommerce.png'
             alt='hotto to backbone healt'
             width={381}
             height={284}
-            className='h-269.09 w-361 md:h-284 md:w-381'
+            className='h-269.09 w-361 object-cover md:h-284 md:w-381'
           ></Image>
-          <p className='text-[16px] font-semibold md:text-[20px]'>
+          <p className='rounded-2xl text-[16px] font-semibold md:text-[20px]'>
             Dashboard SaaS Task Management
           </p>
-          <Link href='#'>
+          <Link href='https://nextjs-ecommerce-mvp-chi.vercel.app/'>
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
               <ArrowRight
@@ -111,7 +111,7 @@ export default function MyLatestWork() {
               Dashboard
             </div>
             <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2024
+              2025
             </div>
           </div>
           <Image
@@ -142,7 +142,7 @@ export default function MyLatestWork() {
               Dashboard
             </div>
             <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2024
+              2025
             </div>
           </div>
           <Image
@@ -173,7 +173,7 @@ export default function MyLatestWork() {
               Dashboard
             </div>
             <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2024
+              2025
             </div>
           </div>
           <Image

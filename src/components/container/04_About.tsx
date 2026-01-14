@@ -217,7 +217,7 @@ export default function About() {
           </div>
           <div className='flex'>
             <Image
-              src='/images/23_Foody.png'
+              src='/images/23_restaurant.png'
               alt='experience1'
               width={95}
               height={71}

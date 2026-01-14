@@ -10,9 +10,9 @@ export default function MyLatestWork() {
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Latest Work
       </h2>
-      <div className='flex w-full flex-wrap justify-center gap-24 md:gap-0 md:gap-x-16 md:gap-y-40'>
+      <div className='flex w-full flex-wrap justify-center gap-24 gap-y-60 md:gap-0 md:gap-x-16'>
         {/* Work 1 */}
-        <div className='flex h-444 w-384 flex-col justify-between gap-24'>
+        <div className='flex w-384 flex-col gap-24'>
           <div className='flex justify-between'>
             <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
               Dashboard
@@ -22,14 +22,14 @@ export default function MyLatestWork() {
             </div>
           </div>
           <Image
-            src='/images/23_foody.png'
+            src='/images/23_restaurant.png'
             alt='task management solution'
             width={381}
             height={284}
             className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
           ></Image>
           <p className='text-[16px] font-semibold md:text-[20px]'>
-            Dashboard SaaS Task Management
+            Modern Restaurant Website
           </p>
           <Link href='https://restaurant-web-mpv.vercel.app/'>
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
@@ -43,7 +43,7 @@ export default function MyLatestWork() {
           </Link>
         </div>
         {/* Work 2 */}
-        <div className='flex h-444 w-384 flex-col justify-between gap-24'>
+        <div className='-mt-40 flex h-444 w-384 flex-col justify-between gap-24 md:mt-0'>
           <div className='flex justify-between'>
             <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
               Dashboard
@@ -115,16 +115,16 @@ export default function MyLatestWork() {
             </div>
           </div>
           <Image
-            src='/images/26_work4.png'
+            src='/images/26_library.png'
             alt='agriculture aplication'
             width={381}
             height={284}
-            className='h-269.09 w-361 md:h-284 md:w-381'
+            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
           ></Image>
           <p className='text-[16px] font-semibold md:text-[20px]'>
             Dashboard SaaS Task Management
           </p>
-          <Link href='#'>
+          <Link href='https://library-web-mvp.vercel.app/'>
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
               <ArrowRight
@@ -146,47 +146,16 @@ export default function MyLatestWork() {
             </div>
           </div>
           <Image
-            src='/images/27_work5.png'
+            src='/images/27_sosmed.png'
             alt='boxinside  for security locker '
             width={381}
             height={284}
-            className='h-269.09 w-361 md:h-284 md:w-381'
+            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
           ></Image>
           <p className='text-[16px] font-semibold md:text-[20px]'>
             Dashboard SaaS Task Management
           </p>
-          <Link href='#'>
-            <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
-              Visit Website
-              <ArrowRight
-                width={14}
-                height={14}
-                className='ml-5 h-14 w-14 self-center'
-              />
-            </div>
-          </Link>
-        </div>
-        {/* Work 6 */}
-        <div className='flex h-444 w-384 flex-col justify-between gap-24'>
-          <div className='flex justify-between'>
-            <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
-              Dashboard
-            </div>
-            <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2025
-            </div>
-          </div>
-          <Image
-            src='/images/28_work6.png'
-            alt='logo.lab'
-            width={381}
-            height={284}
-            className='h-269.09 w-361 md:h-284 md:w-381'
-          ></Image>
-          <p className='text-[16px] font-semibold md:text-[20px]'>
-            Dashboard SaaS Task Management
-          </p>
-          <Link href='#'>
+          <Link href='https://social-media-web-mpv.vercel.app/'>
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
               <ArrowRight

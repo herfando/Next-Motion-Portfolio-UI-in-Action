@@ -2,7 +2,6 @@ import image from 'next/image';
 import Image from 'next/image';
 import { JSX } from 'react';
 
-
 export interface SkillItem {
   name: string;
   image: JSX.Element;
@@ -22,7 +21,8 @@ export const skillData: SkillItem[] = [
         className='w-23.33 h-23.33'
       />
     ),
-    description: 'Building the structure of web pages with semantic markup for accessibility.',
+    description:
+      'Build clean, semantic, and SEO-friendly web structures. Ensure content is accessible and compatible across all browsers.',
     percentage: 90,
   },
   {
@@ -36,7 +36,8 @@ export const skillData: SkillItem[] = [
         className='w-23.33 h-23.33'
       />
     ),
-    description: 'Building the structure of web pages with semantic markup for accessibility.',
+    description:
+      'Implement designs from Figma with precision, delivering clean, consistent, and responsive web interfaces across all devices.',
     percentage: 90,
   },
   {
@@ -50,11 +51,27 @@ export const skillData: SkillItem[] = [
         className='w-23.33 h-23.33'
       />
     ),
-    description: 'Building the structure of web pages with semantic markup for accessibility.',
+    description:
+      'Build interactive and dynamic web features with clean, maintainable code.',
     percentage: 90,
   },
   {
-    name: 'React JS',
+    name: 'Typescript',
+    image: (
+      <Image
+        src='/images/11_ts.png'
+        alt='typescript icon'
+        width={23.33}
+        height={23.33}
+        className='w-23.33 h-23.33'
+      />
+    ),
+    description:
+      'Develop safe and scalable front-end applications with strong typing, minimizing bugs and improving maintainability.',
+    percentage: 90,
+  },
+  {
+    name: 'React',
     image: (
       <Image
         src='/images/12_reactjs.png'
@@ -64,35 +81,84 @@ export const skillData: SkillItem[] = [
         className='w-23.33 h-23.33'
       />
     ),
-    description: 'Building the structure of web pages with semantic markup for accessibility.',
+    description:
+      'Build dynamic and interactive front-end applications using React JS, leveraging reusable components and state management for an optimal user experience.',
     percentage: 90,
   },
   {
-    name: 'Mongo DB',
+    name: 'Next.js',
     image: (
       <Image
-        src='/images/15_mongoDB.png'
-        alt='mongodb icon'
+        src='/images/13_nextjs.svg'
+        alt='nextjs icon'
         width={23.33}
         height={23.33}
         className='w-23.33 h-23.33'
       />
     ),
-    description: 'Building the structure of web pages with semantic markup for accessibility.',
+    description:
+      'Build modern high-performance React applications using Next.js, leveraging SSR, SSG, and dynamic routing for an optimal user experience.',
     percentage: 90,
   },
   {
-    name: 'Docker',
+    name: 'TanStack Query',
     image: (
       <Image
-        src='/images/13_docker.png'
-        alt='docker icon'
+        src='/images/10_tanstack.png'
+        alt='tanstack query icon'
         width={23.33}
         height={23.33}
         className='w-23.33 h-23.33'
       />
     ),
-    description: 'Building the structure of web pages with semantic markup for accessibility.',
+    description:
+      'Efficiently manage server data with automatic caching, fetching, and state management, keeping applications responsive and high-performing.',
+    percentage: 90,
+  },
+  {
+    name: 'Redux Toolkit',
+    image: (
+      <Image
+        src='/images/15_redux.svg'
+        alt='redux toolkit icon'
+        width={23.33}
+        height={23.33}
+        className='w-23.33 h-23.33'
+      />
+    ),
+    description:
+      'Manage React application state in a structured and efficient way using Redux Toolkit, simplifying complex feature development and maintaining consistent data.',
+    percentage: 90,
+  },
+  {
+    name: 'Zustand',
+    image: (
+      <Image
+        src='/images/16_zustand.svg'
+        alt='zustand icon'
+        width={23.33}
+        height={23.33}
+        className='w-23.33 h-23.33'
+      />
+    ),
+    description:
+      'Manage global state in React applications in a lightweight and efficient way, simplifying feature development without excessive boilerplate.',
+    percentage: 90,
+  },
+
+  {
+    name: 'Framer Motion',
+    image: (
+      <Image
+        src='/images/14_motion.png'
+        alt='framer motion icon'
+        width={23.33}
+        height={23.33}
+        className='w-23.33 h-23.33'
+      />
+    ),
+    description:
+      'Create smooth and responsive web animations and interactions, enhancing user experience and application interactivity.',
     percentage: 90,
   },
 ];

@@ -26,7 +26,7 @@ export default function Skill() {
             <p className='text-[rgba(65,70,81,1)] md:text-[16px]'>
               {skill.description}
             </p>
-            <ProgressBar percentage={skill.percentage} duration={2} />
+            {/* <ProgressBar percentage={skill.percentage} duration={2} /> */}
           </div>
         ))}
       </div>

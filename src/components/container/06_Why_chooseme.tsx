@@ -14,9 +14,9 @@ export default function WhyChooseMe() {
         <p className='text-center'>Me</p>
         <p className='text-center'>Other</p>
       </div>
-      {/* React Expert */}
+      {/* React & Next.js */}
       <div className='grid h-72 grid-cols-3 items-center text-sm text-black md:text-lg dark:text-white'>
-        <p className='text-center'>React Expert</p>
+        <p className='text-center'>React & Next.js</p>
         <div className='flex justify-center'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full bg-[#E17B0E] text-white md:h-28 md:w-28'>
             <Check strokeWidth={3} className='h-13 w-13 md:h-16 md:w-16' />

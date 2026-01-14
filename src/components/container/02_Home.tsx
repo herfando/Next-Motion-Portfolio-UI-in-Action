@@ -93,7 +93,7 @@ export default function Home() {
         <MotionWrapper
           asChild
           initial={{ rotate: 5 }}
-          animate={{ rotate: [5, -5, 5, 0] }}
+          animate={{ rotate: [5, -5, 5] }}
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
           <Card className='absolute top-[0.908%] right-1/2 h-80 w-200 translate-x-[8.427%] space-y-5 p-10 md:top-[4.07%] md:h-125 md:w-340 md:-translate-x-[20.69%] md:space-y-10 md:p-20'>
@@ -119,7 +119,7 @@ export default function Home() {
         <MotionWrapper
           asChild
           initial={{ rotate: -5 }}
-          animate={{ rotate: [-5, 5, -5, 0] }}
+          animate={{ rotate: [-5, 5, -5] }}
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
           <Card className='absolute top-[30.056%] right-1/2 h-80 w-166 -translate-x-[14.924%] p-20 md:top-[38.54%] md:h-110 md:w-283 md:-translate-x-[60.498%]'>

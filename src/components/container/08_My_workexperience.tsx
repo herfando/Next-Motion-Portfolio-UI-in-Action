@@ -11,7 +11,7 @@ export default function MyWorkExperience() {
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Work Experience
       </h2>
-      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-80 md:grid-cols-[152_80_1fr] md:gap-y-40'>
+      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-150 md:grid-cols-[152_80_1fr] md:gap-y-40'>
         {/* WPH */}
         {/* colom 1 */}
         <div className='hidden w-152 space-y-12 md:block'>
@@ -33,7 +33,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-250'>
+        <div>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Software Engineer, Frontend
           </h3>
@@ -66,7 +66,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-200'>
+        <div>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Plant Manager
           </h3>
@@ -99,7 +99,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-130'>
+        <div>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Head Production
           </h3>
@@ -130,7 +130,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-200'>
+        <div>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Technology & Manufacturing Staff
           </h3>

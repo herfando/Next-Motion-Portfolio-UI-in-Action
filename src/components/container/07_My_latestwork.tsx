@@ -16,7 +16,7 @@ export default function MyLatestWork() {
         My Latest Work
       </h2>
 
-      <div className='flex w-full flex-wrap justify-center gap-24 gap-y-100 md:gap-x-16 md:gap-y-60'>
+      <div className='flex w-full flex-wrap justify-center gap-24 gap-y-80 md:gap-x-16 md:gap-y-60'>
         {/* Work 1 */}
         <div className='flex w-384 flex-col gap-24'>
           <div className='flex gap-x-5'>

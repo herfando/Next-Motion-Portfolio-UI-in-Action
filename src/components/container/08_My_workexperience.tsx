@@ -4,14 +4,14 @@ import Image from 'next/image';
 export default function MyWorkExperience() {
   return (
     <section
-      className='custom-container flex h-auto w-full flex-col justify-center pt-40 pb-100 md:pt-80 md:pb-80'
+      className='custom-container flex h-auto w-full flex-col justify-center pt-40 pb-60 md:pt-80 md:pb-80'
       id='experience'
     >
       {/* Title */}
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Work Experience
       </h2>
-      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-60 md:grid-cols-[152_80_1fr] md:gap-y-40'>
+      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-40 md:grid-cols-[152_80_1fr] md:gap-y-40'>
         {/* WPH */}
         {/* colom 1 */}
         <div className='hidden w-152 space-y-12 md:block'>

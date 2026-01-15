@@ -58,7 +58,7 @@ export default function ToggleHamburger({}) {
               className='block object-contain dark:hidden'
             />
             <Image
-              src='/icons/logo.png'
+              src='/icons/01_logo.png'
               alt='logo'
               width={26.3}
               height={28.5}
@@ -79,10 +79,16 @@ export default function ToggleHamburger({}) {
                   <Link href={item.href}>{item.label}</Link>
                 </li>
               ))}
-              <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB] text-white hover:cursor-pointer dark:text-black'>
-                <Mail className='size-20' />
-                Hire Me
-              </Button>
+              <a
+                href='https://wa.me/6282213114640?text=Hello%20Herfando, '
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB] text-white hover:cursor-pointer dark:text-black'>
+                  <Mail className='size-20' />
+                  Hire Me
+                </Button>
+              </a>
             </ul>
           </div>
         </div>

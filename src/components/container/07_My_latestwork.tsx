@@ -1,15 +1,21 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export default function MyLatestWork() {
   return (
-    <section className='custom-container h-auto w-full pt-40 pb-40 md:pt-80 md:pb-80'>
+    <section
+      className='custom-container h-auto w-full pt-40 pb-40 md:pt-80 md:pb-80'
+      id='projects'
+    >
       {/* Title */}
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Latest Work
       </h2>
+
       <div className='flex w-full flex-wrap justify-center gap-24 gap-y-60 md:gap-0 md:gap-x-16'>
         {/* Work 1 */}
         <div className='flex w-384 flex-col gap-24'>
@@ -21,27 +27,42 @@ export default function MyLatestWork() {
               2025
             </div>
           </div>
-          <Image
-            src='/images/23_restaurant.png'
-            alt='task management solution'
-            width={381}
-            height={284}
-            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
-          ></Image>
+
+          <Link
+            href='https://restaurant-web-mpv.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <motion.div
+              whileHover={{ scale: 1.05, y: -6 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <Image
+                src='/images/23_restaurant.png'
+                alt='task management solution'
+                width={381}
+                height={284}
+                className='h-269.09 w-361 rounded-2xl object-cover hover:cursor-pointer md:h-284 md:w-381'
+              />
+            </motion.div>
+          </Link>
+
           <p className='text-[16px] font-semibold md:text-[20px]'>
             Modern Restaurant Website
           </p>
-          <Link href='https://restaurant-web-mpv.vercel.app/'>
+
+          <Link
+            href='https://restaurant-web-mpv.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
-              <ArrowRight
-                width={14}
-                height={14}
-                className='ml-5 h-14 w-14 self-center'
-              />
+              <ArrowRight className='ml-5 h-14 w-14 self-center' />
             </div>
           </Link>
         </div>
+
         {/* Work 2 */}
         <div className='-mt-40 flex h-444 w-384 flex-col justify-between gap-24 md:mt-0'>
           <div className='flex justify-between'>
@@ -52,27 +73,41 @@ export default function MyLatestWork() {
               2025
             </div>
           </div>
-          <Image
-            src='/images/24_movie2.png'
-            alt='magic studio demo'
-            width={381}
-            height={284}
-            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
-          ></Image>
+          <Link
+            href='https://movie-app-next-xi.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <motion.div
+              whileHover={{ scale: 1.05, y: -6 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <Image
+                src='/images/24_movie2.png'
+                alt='magic studio demo'
+                width={381}
+                height={284}
+                className='h-269.09 w-361 rounded-2xl object-cover hover:cursor-pointer md:h-284 md:w-381'
+              />
+            </motion.div>
+          </Link>
+
           <p className='text-[16px] font-semibold md:text-[20px]'>
-            Dashboard SaaS Task Management
+            Movie Database Dashboard
           </p>
-          <Link href='https://movie-app-next-xi.vercel.app/'>
+
+          <Link
+            href='https://movie-app-next-xi.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
-              <ArrowRight
-                width={14}
-                height={14}
-                className='ml-5 h-14 w-14 self-center'
-              />
+              <ArrowRight className='ml-5 h-14 w-14 self-center' />
             </div>
           </Link>
         </div>
+
         {/* Work 3 */}
         <div className='flex h-444 w-384 flex-col justify-between gap-24'>
           <div className='flex justify-between'>
@@ -83,27 +118,41 @@ export default function MyLatestWork() {
               2025
             </div>
           </div>
-          <Image
-            src='/images/25_ecommerce.png'
-            alt='hotto to backbone healt'
-            width={381}
-            height={284}
-            className='h-269.09 w-361 object-cover md:h-284 md:w-381'
-          ></Image>
+          <Link
+            href='https://nextjs-ecommerce-mvp-chi.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <motion.div
+              whileHover={{ scale: 1.05, y: -6 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <Image
+                src='/images/25_ecommerce.png'
+                alt='hotto to backbone healt'
+                width={381}
+                height={284}
+                className='h-269.09 w-361 object-cover hover:cursor-pointer md:h-284 md:w-381'
+              />
+            </motion.div>
+          </Link>
+
           <p className='rounded-2xl text-[16px] font-semibold md:text-[20px]'>
-            Dashboard SaaS Task Management
+            E-Commerce Platform Application
           </p>
-          <Link href='https://nextjs-ecommerce-mvp-chi.vercel.app/'>
+
+          <Link
+            href='https://nextjs-ecommerce-mvp-chi.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
-              <ArrowRight
-                width={14}
-                height={14}
-                className='ml-5 h-14 w-14 self-center'
-              />
+              <ArrowRight className='ml-5 h-14 w-14 self-center' />
             </div>
           </Link>
         </div>
+
         {/* Work 4 */}
         <div className='flex h-444 w-384 flex-col justify-between gap-24'>
           <div className='flex justify-between'>
@@ -114,27 +163,41 @@ export default function MyLatestWork() {
               2025
             </div>
           </div>
-          <Image
-            src='/images/26_library.png'
-            alt='agriculture aplication'
-            width={381}
-            height={284}
-            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
-          ></Image>
+          <Link
+            href='https://library-web-mvp.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <motion.div
+              whileHover={{ scale: 1.05, y: -6 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <Image
+                src='/images/26_library.png'
+                alt='agriculture aplication'
+                width={381}
+                height={284}
+                className='h-269.09 w-361 rounded-2xl object-cover hover:cursor-pointer md:h-284 md:w-381'
+              />
+            </motion.div>
+          </Link>
+
           <p className='text-[16px] font-semibold md:text-[20px]'>
-            Dashboard SaaS Task Management
+            Digital Library Platform
           </p>
-          <Link href='https://library-web-mvp.vercel.app/'>
+
+          <Link
+            href='https://library-web-mvp.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
-              <ArrowRight
-                width={14}
-                height={14}
-                className='ml-5 h-14 w-14 self-center'
-              />
+              <ArrowRight className='ml-5 h-14 w-14 self-center' />
             </div>
           </Link>
         </div>
+
         {/* Work 5 */}
         <div className='flex h-444 w-384 flex-col justify-between gap-24'>
           <div className='flex justify-between'>
@@ -145,24 +208,37 @@ export default function MyLatestWork() {
               2025
             </div>
           </div>
-          <Image
-            src='/images/27_sosmed.png'
-            alt='boxinside  for security locker '
-            width={381}
-            height={284}
-            className='h-269.09 w-361 rounded-2xl object-cover md:h-284 md:w-381'
-          ></Image>
+          <Link
+            href='https://social-media-web-mpv.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <motion.div
+              whileHover={{ scale: 1.05, y: -6 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <Image
+                src='/images/27_sosmed.png'
+                alt='boxinside for security locker'
+                width={381}
+                height={284}
+                className='h-269.09 w-361 rounded-2xl object-cover hover:cursor-pointer md:h-284 md:w-381'
+              />
+            </motion.div>
+          </Link>
+
           <p className='text-[16px] font-semibold md:text-[20px]'>
-            Dashboard SaaS Task Management
+            Social Media Web Application
           </p>
-          <Link href='https://social-media-web-mpv.vercel.app/'>
+
+          <Link
+            href='https://social-media-web-mpv.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex cursor-pointer rounded-md p-4 text-[14px] text-[#6600EB] transition hover:font-bold md:h-30 md:text-[16px]'>
               Visit Website
-              <ArrowRight
-                width={14}
-                height={14}
-                className='ml-5 h-14 w-14 self-center'
-              />
+              <ArrowRight className='ml-5 h-14 w-14 self-center' />
             </div>
           </Link>
         </div>

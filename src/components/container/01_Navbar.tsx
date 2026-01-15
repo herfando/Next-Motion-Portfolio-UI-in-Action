@@ -37,10 +37,16 @@ export default function Navbar() {
         <ToggleDark />
 
         {/* 4.Button */}
-        <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer lg:flex'>
-          <Mail className='size-20' />
-          Hire Me
-        </Button>
+        <a
+          href='https://wa.me/6282213114640?text=Hello%20Herfando, '
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer hover:text-white lg:flex'>
+            <Mail className='size-20' />
+            Hire Me
+          </Button>
+        </a>
 
         {/* 5.Hamburger */}
         <ToggleHamburger />

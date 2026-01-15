@@ -26,10 +26,10 @@ export const skillData: SkillItem[] = [
     percentage: 90,
   },
   {
-    name: 'CSS',
+    name: 'Tailwind CSS',
     image: (
       <Image
-        src='/images/06_css.png'
+        src='/images/06_tailwind.svg'
         alt='css icon'
         width={23.33}
         height={23.33}
@@ -37,7 +37,7 @@ export const skillData: SkillItem[] = [
       />
     ),
     description:
-      'Implement designs from Figma with precision, delivering clean, consistent, and responsive web interfaces across all devices.',
+      'Tailwind CSS enables faster development, consistent user interfaces, and scalable styling, making it ideal for modern web applications.',
     percentage: 90,
   },
   {

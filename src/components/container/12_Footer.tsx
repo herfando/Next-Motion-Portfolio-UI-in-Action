@@ -5,7 +5,7 @@ import { section } from 'framer-motion/client';
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <section className='h-auto w-full flex-col justify-between bg-[#10242a] pt-40 pb-40 text-white dark:bg-black'>
+    <section className='h-auto w-full flex-col justify-between bg-[#10242a] pt-40 pb-40 text-white dark:bg-black/60'>
       <div className='custom-container flex-between h-auto w-full flex-wrap space-y-20 pt-40 pb-40 md:space-y-0 md:pt-0 md:pb-0'>
         <div className='flex flex-wrap gap-16'>
           {/* Your Logo */}
@@ -22,12 +22,12 @@ export default function Footer() {
           </div>
           {/* copyright */}
           <div className='md:text-md self-center'>
-            © {year} Edwin Anderson. All rights reserved
+            © {year} Herfando. All rights reserved
           </div>
         </div>
         {/* sosmed */}
         <div className='flex gap-16'>
-          <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#410292]'>
+          <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#2a9e8b]'>
             <Image
               className='w-28.83 h-28.83'
               src='/icons/10_web.svg'
@@ -36,7 +36,7 @@ export default function Footer() {
               height={28.83}
             />
           </div>
-          <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#410292]'>
+          <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#2a9e8b]'>
             <Image
               className='w-28.83 h-28.83'
               src='/icons/11_instagram.svg'
@@ -45,7 +45,7 @@ export default function Footer() {
               height={28.83}
             />
           </div>
-          <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#410292]'>
+          <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#2a9e8b]'>
             <Image
               className='w-28.83 h-28.83'
               src='/icons/12_linkid.svg'

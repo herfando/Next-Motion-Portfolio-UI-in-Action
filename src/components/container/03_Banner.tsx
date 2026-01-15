@@ -20,7 +20,7 @@ export default function Banner() {
         animate={{ rotate: [-1.5, 0, -1.5] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
       >
-        <div className='flex-center top-full z-12 h-84 w-full -translate-y-0 gap-[22.3] bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:-translate-y-20 md:text-[48px] dark:bg-white dark:text-black'>
+        <div className='flex-center top-full z-12 h-84 w-full -translate-y-0 gap-[22.3] overflow-hidden bg-black text-[24px] font-bold whitespace-nowrap text-white md:h-[140] md:-translate-y-20 md:text-[48px] dark:bg-white dark:text-black'>
           {items.map((text, i) => (
             <React.Fragment key={i}>
               <Image

@@ -261,7 +261,7 @@ export default function About() {
             />
 
             {/* title */}
-            <div className='absolute inset-0 top-[25.822%] place-items-center text-[32px] font-bold text-white md:text-[40px] dark:text-black'>
+            <div className='absolute inset-0 top-[25.822%] place-items-center text-[32px] font-bold text-[#2a9e8b] md:text-[40px] dark:text-black'>
               <p>My</p>
               <p>Experience</p>
             </div>

@@ -29,7 +29,7 @@ export default function MyWorkExperience() {
         {/* colom 2 */}
         <div className='z-1'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
-            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#2a9e8b]'></div>
           </div>
         </div>
         {/* colom 3 */}
@@ -62,7 +62,7 @@ export default function MyWorkExperience() {
         {/* colom 2 */}
         <div className='z-1'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
-            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#2a9e8b]'></div>
           </div>
         </div>
         {/* colom 3 */}
@@ -95,7 +95,7 @@ export default function MyWorkExperience() {
         {/* colom 2 */}
         <div className='z-1'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
-            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#2a9e8b]'></div>
           </div>
         </div>
         {/* colom 3 */}
@@ -126,7 +126,7 @@ export default function MyWorkExperience() {
         {/* colom 2 */}
         <div className='z-1'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
-            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#2a9e8b]'></div>
           </div>
         </div>
         {/* colom 3 */}

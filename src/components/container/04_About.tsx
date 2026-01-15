@@ -17,11 +17,10 @@ export default function About() {
           Hi, I’m Herfando 👋
         </p>
         <p className='text-[20px] font-semibold text-black md:text-[32px] dark:text-white'>
-          Building digital products with a focus on crafting visually engaging
-          and seamless user interfaces using React.js.{' '}
+          Building sleek, user-friendly interfaces with React & Next.js.{' '}
           <span className='text-[rgba(164,167,174,1)]'>
-            Prioritizing responsive design, performance optimization, and
-            user-centric features to deliver exceptional web experiences.
+            <br />
+            Delivering fast, responsive, and user-focused web experiences.
           </span>
         </p>
       </div>

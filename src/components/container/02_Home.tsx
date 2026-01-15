@@ -17,7 +17,7 @@ export default function Home() {
   ];
 
   return (
-    <section className='bg-[#10242a] dark:bg-black' id='home'>
+    <section className='overflow-hidden bg-[#10242a] dark:bg-black' id='home'>
       <div className='custom-container relative grid h-400 w-full justify-center md:h-700'>
         {/* Name */}
         <MotionWrapper

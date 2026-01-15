@@ -267,9 +267,11 @@ export default function About() {
             />
 
             {/* title */}
-            <div className='absolute inset-0 top-[25.822%] place-items-center text-[32px] font-bold text-[#2a9e8b] md:text-[40px] dark:text-black'>
-              <p>My</p>
-              <p>Experience</p>
+            <div className='absolute inset-0 top-[25.822%] right-1/2 translate-x-1/2 items-center text-[32px] font-bold text-[#2a9e8b] md:text-[40px] dark:text-black'>
+              <div className='flex flex-col items-center justify-center'>
+                <p>My</p>
+                <p>Experience</p>
+              </div>
             </div>
 
             {/* screenshots */}

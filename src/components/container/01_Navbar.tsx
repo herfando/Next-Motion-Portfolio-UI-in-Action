@@ -11,7 +11,7 @@ import ToggleHamburger from '../ui/togglehamburger';
 
 export default function Navbar() {
   return (
-    <nav className='sticky top-0 z-50 w-full bg-[#10242a]/95 text-white backdrop-blur-lg dark:bg-black'>
+    <nav className='sticky top-0 z-50 w-full bg-[#10242a]/95 text-white backdrop-blur-lg dark:bg-black/60'>
       <div className='custom-container flex-between h-80 lg:h-85'>
         <div className='flex w-141 gap-8 text-lg font-semibold whitespace-nowrap hover:cursor-pointer hover:text-blue-800'>
           {/* 1.Image */}
@@ -42,7 +42,7 @@ export default function Navbar() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer hover:text-white lg:flex'>
+          <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white lg:flex'>
             <Mail className='size-20' />
             Hire Me
           </Button>

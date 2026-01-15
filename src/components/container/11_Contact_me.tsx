@@ -1,8 +1,22 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { Button } from '../ui/button';
 
 export default function ContactMe() {
+  // state input
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  // fungsi submit ke WA
+  const sendToWA = () => {
+    const phone = '6282213114640'; // nomor WA kamu
+    const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank'); // buka WA
+  };
+
   return (
     <section className='custom-container h-auto pt-40 pb-64' id='contact'>
       <div className='flex flex-wrap justify-between space-y-20'>
@@ -23,7 +37,7 @@ export default function ContactMe() {
                 width={11.67}
                 height={16.67}
                 className='w-11.67 h-16.67 md:h-24 md:w-24'
-              ></Image>
+              />
             </div>
             <a
               href='https://wa.me/6282213114640?text=Hello%20Herfando, '
@@ -45,7 +59,7 @@ export default function ContactMe() {
                 width={11.67}
                 height={16.67}
                 className='w-11.67 h-16.67 md:h-24 md:w-24'
-              ></Image>
+              />
             </div>
             <a
               href='https://compose.mail.yahoo.com/?to=herfando_91@yahoo.com'
@@ -67,7 +81,7 @@ export default function ContactMe() {
                 width={11.67}
                 height={16.67}
                 className='w-11.67 h-16.67 md:h-24 md:w-24'
-              ></Image>
+              />
             </div>
             <a
               href='https://www.google.com/maps/place/South+Sumatra,+Indonesia'
@@ -81,22 +95,48 @@ export default function ContactMe() {
             </a>
           </div>
         </div>
+
         {/* right coloumn */}
         <div className='h-494 w-361 p-32 font-semibold md:h-645 md:w-537 md:text-[24px]'>
           <h2>Send a Message</h2>
+
           <div className='pb-8'>
             <p className='md:text-md font-semibold'>Name</p>
-            <div className='h-56 w-473 rounded-2xl border border-[#E9EAEB]'></div>
+            <input
+              placeholder='Your Name'
+              type='text'
+              className='font-regular text-md h-56 w-473 rounded-2xl border border-[#E9EAEB] px-20 md:text-lg'
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
           </div>
+
           <div className='pb-8'>
             <p className='md:text-md font-semibold'>Email</p>
-            <div className='h-56 w-473 rounded-2xl border border-[#E9EAEB]'></div>
+            <input
+              placeholder='Your Email'
+              type='email'
+              className='font-regular text-md h-56 w-473 rounded-2xl border border-[#E9EAEB] px-20 md:text-lg'
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </div>
+
           <div className='pb-24'>
             <p className='md:text-md font-semibold'>Message</p>
-            <div className='h-180 w-473 rounded-2xl border border-[#E9EAEB]'></div>
+            <input
+              placeholder='Your Message'
+              type='text'
+              className='font-regular text-md h-180 w-473 rounded-2xl border border-[#E9EAEB] px-20 md:text-lg'
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+            />
           </div>
-          <Button className='h-56 w-473 cursor-pointer self-end rounded-full bg-[#6600EB] text-black dark:text-white'>
+
+          <Button
+            className='h-56 w-473 cursor-pointer self-end rounded-full border border-[#2a9e8b] bg-white font-bold text-black hover:bg-[#2a9e8b] hover:text-white dark:bg-black dark:text-white dark:hover:bg-[#2a9e8b]'
+            onClick={sendToWA}
+          >
             Submit
           </Button>
         </div>

@@ -17,11 +17,10 @@ export default function About() {
           Hi, I’m Herfando 👋
         </p>
         <p className='text-[20px] font-semibold text-black md:text-[32px] dark:text-white'>
-          Building digital products with a focus on crafting visually engaging
-          and seamless user interfaces using React.js.{' '}
+          Building sleek, user-friendly interfaces with React & Next.js.{' '}
           <span className='text-[rgba(164,167,174,1)]'>
-            Prioritizing responsive design, performance optimization, and
-            user-centric features to deliver exceptional web experiences.
+            <br />
+            Delivering fast, responsive, and user-focused web experiences.
           </span>
         </p>
       </div>
@@ -230,7 +229,7 @@ export default function About() {
         </div>
 
         {/* Coloumn 2 */}
-        <div className='flex flex-wrap justify-center justify-items-center gap-60'>
+        <div className='flex flex-wrap justify-center justify-items-center gap-60 p-24'>
           {/* Herfando */}
           <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-400 dark:bg-[#2B1548]'>
             <div className='translate-y-[40%] place-items-center -space-y-30 px-10 text-[64px] font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
@@ -261,9 +260,9 @@ export default function About() {
             <Image
               src='/images/16_5 years experience.png'
               alt='experience'
-              width={381}
+              width={400}
               height={395}
-              className='h-374 w-361 md:h-395 md:w-381'
+              className='h-374 w-361 md:h-395 md:w-400'
             />
 
             {/* title */}

@@ -244,10 +244,16 @@ export default function About() {
               src='/images/02_Fando4.png'
             />
             {/* Button */}
-            <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full border border-[text-[#2a9e8b]] bg-white text-sm font-extrabold text-[#2a9e8b] hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white lg:flex dark:bg-black dark:text-white'>
-              <Mail className='size-20' />
-              Hire Me
-            </Button>
+            <a
+              href='https://wa.me/6282213114640?text=Hello%20Herfando, '
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button className='absolute top-[82.939%] left-1/2 h-48 w-233 -translate-x-1/2 gap-8 rounded-full border border-[#2a9e8b] bg-white text-sm font-extrabold text-black hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white lg:flex dark:bg-black dark:text-white'>
+                <Mail className='size-20' />
+                Hire Me
+              </Button>
+            </a>
           </div>
           {/* My Experience */}
           <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl md:h-395 md:w-400'>

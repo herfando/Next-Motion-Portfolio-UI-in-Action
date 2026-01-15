@@ -33,7 +33,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-220'>
+        <div className='h-250'>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Software Engineer, Frontend
           </h3>

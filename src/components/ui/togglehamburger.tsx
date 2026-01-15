@@ -84,7 +84,7 @@ export default function ToggleHamburger({}) {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Button className='h-48 w-full gap-8 rounded-full bg-[#6600EB] text-white hover:cursor-pointer dark:text-black'>
+                <Button className='h-48 w-full gap-8 rounded-full border border-[#2a9e8b] bg-white font-bold text-black hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white dark:text-black'>
                   <Mail className='size-20' />
                   Hire Me
                 </Button>

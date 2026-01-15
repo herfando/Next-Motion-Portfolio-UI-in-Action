@@ -16,15 +16,24 @@ export default function MyLatestWork() {
         My Latest Work
       </h2>
 
-      <div className='flex w-full flex-wrap justify-center gap-24 gap-y-60 md:gap-0 md:gap-x-16'>
+      <div className='flex w-full flex-wrap justify-center gap-24 gap-y-100 md:gap-x-16 md:gap-y-60'>
         {/* Work 1 */}
         <div className='flex w-384 flex-col gap-24'>
-          <div className='flex justify-between'>
-            <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
-              Dashboard
+          <div className='flex gap-x-5'>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              React
             </div>
-            <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2025
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Zustand
+            </div>{' '}
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Typescript
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tanstack
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tailwind
             </div>
           </div>
 
@@ -65,12 +74,15 @@ export default function MyLatestWork() {
 
         {/* Work 2 */}
         <div className='-mt-40 flex h-444 w-384 flex-col justify-between gap-24 md:mt-0'>
-          <div className='flex justify-between'>
-            <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
-              Dashboard
+          <div className='flex gap-x-5'>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Next.js
             </div>
-            <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2025
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Typescript
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tailwind
             </div>
           </div>
           <Link
@@ -110,12 +122,22 @@ export default function MyLatestWork() {
 
         {/* Work 3 */}
         <div className='flex h-444 w-384 flex-col justify-between gap-24'>
-          <div className='flex justify-between'>
-            <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
-              Dashboard
+          <div className='flex gap-x-5'>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Next.js
             </div>
-            <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2025
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Redux
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Typescript
+            </div>
+
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tanstack
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tailwind
             </div>
           </div>
           <Link
@@ -155,12 +177,22 @@ export default function MyLatestWork() {
 
         {/* Work 4 */}
         <div className='flex h-444 w-384 flex-col justify-between gap-24'>
-          <div className='flex justify-between'>
-            <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
-              Dashboard
+          <div className='flex gap-x-5'>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Next.js
             </div>
-            <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2025
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Redux
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Typescript
+            </div>
+
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tanstack
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tailwind
             </div>
           </div>
           <Link
@@ -200,12 +232,21 @@ export default function MyLatestWork() {
 
         {/* Work 5 */}
         <div className='flex h-444 w-384 flex-col justify-between gap-24'>
-          <div className='flex justify-between'>
-            <div className='flex h-28 w-100 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-111 md:text-[14px]'>
-              Dashboard
+          <div className='flex gap-x-5'>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              React
             </div>
-            <div className='flex h-28 w-61 items-center justify-center self-center rounded-full border border-dashed border-[#A4A7AE] text-[12px] md:h-36 md:w-66 md:text-[14px]'>
-              2025
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Zustand
+            </div>{' '}
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Typescript
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tanstack
+            </div>
+            <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
+              Tailwind
             </div>
           </div>
           <Link

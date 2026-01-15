@@ -9,7 +9,7 @@ import { skillData } from '../data/skill-data';
 export default function Skill() {
   return (
     <section className='h-auto pt-40 pb-40 md:pb-80' id='skill'>
-      <div className='pt-40 pb-48 text-center text-[48px] font-bold dark:text-white'>
+      <div className='pt-40 pb-48 text-center text-[32px] font-bold md:text-[48px] dark:text-white'>
         My Profesional Skill
       </div>
 

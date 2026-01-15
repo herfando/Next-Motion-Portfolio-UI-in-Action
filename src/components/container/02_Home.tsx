@@ -17,7 +17,7 @@ export default function Home() {
   ];
 
   return (
-    <section className='bg-[#10242a] dark:bg-black'>
+    <section className='bg-[#10242a] dark:bg-black' id='home'>
       <div className='custom-container relative grid h-400 w-full justify-center md:h-700'>
         {/* Name */}
         <MotionWrapper
@@ -93,10 +93,10 @@ export default function Home() {
         <MotionWrapper
           asChild
           initial={{ rotate: 5 }}
-          animate={{ rotate: [5, -5, 5] }}
+          animate={{ rotate: [5, -5, 0] }}
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
-          <Card className='absolute top-[0.908%] right-1/2 h-80 w-200 translate-x-[8.427%] space-y-5 p-10 md:top-[4.07%] md:h-125 md:w-340 md:-translate-x-[20.69%] md:space-y-10 md:p-20'>
+          <Card className='absolute top-[0.908%] right-1/2 h-80 w-200 translate-x-[8.427%] space-y-5 p-10 md:top-[4.07%] md:h-125 md:w-340 md:-translate-x-[20.69%] md:space-y-10 md:p-20 dark:text-white'>
             <p className='text-[14px] font-bold whitespace-nowrap md:text-[24px]'>
               Clean Code
             </p>
@@ -106,7 +106,7 @@ export default function Home() {
                 width={13.89}
                 height={13.89}
                 alt='ceklist'
-                className='w-13.89 h-13.89 dark:invert'
+                className='w-13.89 h-13.89'
               />
               <p className='text-[10px] md:text-sm'>
                 Maintainable & scalable frontend code
@@ -119,10 +119,10 @@ export default function Home() {
         <MotionWrapper
           asChild
           initial={{ rotate: -5 }}
-          animate={{ rotate: [-5, 5, -5] }}
+          animate={{ rotate: [-5, 5, 0] }}
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
-          <Card className='absolute top-[30.056%] right-1/2 h-80 w-166 -translate-x-[14.924%] p-20 md:top-[38.54%] md:h-110 md:w-283 md:-translate-x-[60.498%]'>
+          <Card className='absolute top-[30.056%] right-1/2 h-80 w-166 -translate-x-[14.924%] p-20 md:top-[38.54%] md:h-110 md:w-283 md:-translate-x-[60.498%] dark:text-white'>
             <p className='text-[14px] font-bold whitespace-nowrap md:text-[24px]'>
               Frontend Developer
             </p>
@@ -132,7 +132,7 @@ export default function Home() {
                 width={13.89}
                 height={13.89}
                 alt='ceklist'
-                className='w-13.89 h-13.89 dark:invert'
+                className='w-13.89 h-13.89'
               />
               <p className='text-[10px] md:text-sm'>React Expert</p>
             </div>
@@ -146,7 +146,7 @@ export default function Home() {
           animate={{ rotate: [5, -5, 5, 0] }}
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
-          <Card className='absolute top-[15.454%] left-1/2 h-80 w-190 translate-x-[28.047%] space-y-5 p-10 md:top-[20.897%] md:h-120 md:w-320 md:translate-x-[15.09%] md:space-y-10 md:p-20'>
+          <Card className='absolute top-[15.454%] left-1/2 h-80 w-190 translate-x-[28.047%] space-y-5 p-10 md:top-[20.897%] md:h-120 md:w-320 md:translate-x-[15.09%] md:space-y-10 md:p-20 dark:text-white'>
             <p className='text-[14px] font-bold whitespace-nowrap md:text-[24px]'>
               Performance Focused
             </p>
@@ -156,7 +156,7 @@ export default function Home() {
                 width={13.89}
                 height={13.89}
                 alt='ceklist'
-                className='w-13.89 h-13.89 dark:invert'
+                className='w-13.89 h-13.89'
               />
               <p className='text-[10px] md:text-sm'>
                 Fast, responsive web experiences

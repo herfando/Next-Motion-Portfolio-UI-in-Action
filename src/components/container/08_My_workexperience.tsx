@@ -3,12 +3,15 @@ import Image from 'next/image';
 
 export default function MyWorkExperience() {
   return (
-    <section className='custom-container flex h-auto w-full flex-col justify-center pt-40 pb-40 md:pt-80 md:pb-80'>
+    <section
+      className='custom-container flex h-auto w-full flex-col justify-center pt-40 pb-40 md:pt-80 md:pb-80'
+      id='experience'
+    >
       {/* Title */}
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Work Experience
       </h2>
-      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-80 md:grid-cols-[152_55_1fr] md:gap-y-40'>
+      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-80 md:grid-cols-[152_80_1fr] md:gap-y-40'>
         {/* WPH */}
         {/* colom 1 */}
         <div className='hidden w-152 space-y-12 md:block'>
@@ -30,7 +33,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-200'>
+        <div className='h-220'>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Software Engineer, Frontend
           </h3>
@@ -75,12 +78,12 @@ export default function MyWorkExperience() {
             leadership skills.
           </p>
         </div>
-        {/* Spotify */}
+        {/* SAP */}
         {/* colom 1 */}
         <div className='hidden w-152 space-y-12 md:block'>
           <Image
             src='/images/31_sap.png'
-            alt='Spotify company'
+            alt='SAP company'
             width={152}
             height={48}
             className='h-60 w-60 object-contain'
@@ -96,7 +99,7 @@ export default function MyWorkExperience() {
           </div>
         </div>
         {/* colom 3 */}
-        <div className='h-200'>
+        <div className='h-130'>
           <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
             Head Production
           </h3>
@@ -104,6 +107,38 @@ export default function MyWorkExperience() {
             • Led and coordinated production teams to deliver projects on time
             <br />• Managed workflows, priorities, and cross-team communication
             <br />• Ensured quality standards and smooth project execution
+          </p>
+        </div>
+        {/* Hankook */}
+        {/* colom 1 */}
+        <div className='hidden w-152 space-y-12 md:block'>
+          <Image
+            src='/images/32_Hankook_Tire.svg'
+            alt='Hankook company'
+            width={152}
+            height={48}
+            className='h-60 w-120 object-contain'
+          />
+          <p className='font-semibold md:text-xl'>Hankook</p>
+          <p className='md: text-md'>2013-2021</p>
+        </div>
+
+        {/* colom 2 */}
+        <div className='z-1'>
+          <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
+            <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#8B32FF]'></div>
+          </div>
+        </div>
+        {/* colom 3 */}
+        <div className='h-200'>
+          <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
+            Technology & Manufacturing Staff
+          </h3>
+          <p className='md:tet-[16px] text-10 h-90 content-end text-gray-800'>
+            • Reduced production downtime (loss time) by analyzing process
+            inefficiencies and implementing improvement
+            <br />• Improved product quality by reducing rejection rates through
+            process analysis and process optimization
           </p>
         </div>
         {/* garis */}

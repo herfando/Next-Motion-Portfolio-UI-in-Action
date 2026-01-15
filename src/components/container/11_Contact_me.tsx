@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 
 export default function ContactMe() {
   return (
-    <section className='custom-container h-auto pt-40 pb-64'>
+    <section className='custom-container h-auto pt-40 pb-64' id='contact'>
       <div className='flex flex-wrap justify-between space-y-20'>
         {/* left coloumn */}
         <div className='h-336 w-361 space-y-24 md:h-422 md:w-453 md:space-y-32'>
@@ -15,7 +15,7 @@ export default function ContactMe() {
             Fill in the form or Send us an email
           </p>
           {/* handphone */}
-          <div className='flex space-x-16'>
+          <div className='flex space-x-16 hover:cursor-pointer'>
             <div className='flex h-40 w-40 items-center justify-center rounded-full bg-[#F3EBFF] md:h-48 md:w-48'>
               <Image
                 src='/icons/13_phone-01.png'
@@ -25,12 +25,19 @@ export default function ContactMe() {
                 className='w-11.67 h-16.67 md:h-24 md:w-24'
               ></Image>
             </div>
-            <p className='text-md h-30 self-center md:text-lg'>
-              +62 1234567890
-            </p>
+            <a
+              href='https://wa.me/6282213114640?text=Hello%20Herfando, '
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex'
+            >
+              <p className='text-md h-30 self-center md:text-lg'>
+                +62-82213114640
+              </p>
+            </a>
           </div>
           {/* email */}
-          <div className='flex space-x-16'>
+          <div className='flex space-x-16 hover:cursor-pointer'>
             <div className='flex h-40 w-40 items-center justify-center rounded-full bg-[#F3EBFF] md:h-48 md:w-48'>
               <Image
                 src='/icons/14_mail-01.png'
@@ -40,12 +47,19 @@ export default function ContactMe() {
                 className='w-11.67 h-16.67 md:h-24 md:w-24'
               ></Image>
             </div>
-            <p className='text-md h-30 self-center md:text-lg'>
-              edwinanderson@email.com
-            </p>
+            <a
+              href='https://compose.mail.yahoo.com/?to=herfando_91@yahoo.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex'
+            >
+              <p className='text-md h-30 self-center md:text-lg'>
+                herfando_91@yahoo.com
+              </p>
+            </a>
           </div>
           {/* marker */}
-          <div className='flex space-x-16'>
+          <div className='flex space-x-16 hover:cursor-pointer'>
             <div className='flex h-40 w-40 items-center justify-center rounded-full bg-[#F3EBFF] md:h-48 md:w-48'>
               <Image
                 src='/icons/15_marker-pin-01.png'
@@ -55,9 +69,16 @@ export default function ContactMe() {
                 className='w-11.67 h-16.67 md:h-24 md:w-24'
               ></Image>
             </div>
-            <p className='text-md h-30 self-center md:text-lg'>
-              Jakarta, Indonesia
-            </p>
+            <a
+              href='https://www.google.com/maps/place/South+Sumatra,+Indonesia'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex'
+            >
+              <p className='text-md h-30 self-center md:text-lg'>
+                South Sumatra, Indonesia
+              </p>
+            </a>
           </div>
         </div>
         {/* right coloumn */}
@@ -75,7 +96,7 @@ export default function ContactMe() {
             <p className='md:text-md font-semibold'>Message</p>
             <div className='h-180 w-473 rounded-2xl border border-[#E9EAEB]'></div>
           </div>
-          <Button className='h-56 w-473 self-end rounded-full bg-[#6600EB] text-black dark:text-white'>
+          <Button className='h-56 w-473 cursor-pointer self-end rounded-full bg-[#6600EB] text-black dark:text-white'>
             Submit
           </Button>
         </div>

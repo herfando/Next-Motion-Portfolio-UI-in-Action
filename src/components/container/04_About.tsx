@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function About() {
   return (
     <section
-      className='custom-container relative z-3 h-auto w-full bg-white px-10 pt-100 md:pt-150 dark:bg-black'
+      className='custom-container relative z-3 h-auto w-full bg-white pt-100 md:pt-150 dark:bg-black'
       id='about'
     >
       <div className='space-y-10'>

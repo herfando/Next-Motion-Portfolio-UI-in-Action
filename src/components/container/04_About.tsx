@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function About() {
   return (
     <section
-      className='custom-container relative z-3 h-auto w-full bg-white pt-100 md:pt-150 dark:bg-black'
+      className='custom-container relative z-3 h-auto w-full bg-white px-10 pt-100 md:pt-150 dark:bg-black'
       id='about'
     >
       <div className='space-y-10'>
@@ -229,9 +229,10 @@ export default function About() {
         </div>
 
         {/* Coloumn 2 */}
+
         <div className='flex flex-wrap justify-center justify-items-center gap-60 p-24'>
           {/* Herfando */}
-          <div className='relative h-374 w-361 space-y-20 overflow-hidden rounded-2xl bg-[#6600EB] p-24 md:h-395 md:w-400 dark:bg-[#2B1548]'>
+          <div className='relative h-374 w-361 space-y-15 overflow-hidden rounded-2xl bg-[#181D27] p-24 md:h-395 md:w-400 dark:bg-[#0F141C]'>
             <div className='translate-y-[40%] place-items-center -space-y-30 px-10 text-[64px] font-bold text-[#F39C3F] md:text-[71.63px] dark:text-white'>
               <p></p> <p>FANDO</p>
             </div>

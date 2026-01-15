@@ -11,7 +11,7 @@ export default function MyWorkExperience() {
       <h2 className='pb-40 text-center text-[32px] font-bold md:pb-48 md:text-[48px]'>
         My Work Experience
       </h2>
-      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-150 md:grid-cols-[152_80_1fr] md:gap-y-40'>
+      <div className='relative grid w-full grid-cols-[40_1fr] justify-center gap-y-60 md:grid-cols-[152_80_1fr] md:gap-y-40'>
         {/* WPH */}
         {/* colom 1 */}
         <div className='hidden w-152 space-y-12 md:block'>
@@ -34,7 +34,7 @@ export default function MyWorkExperience() {
         </div>
         {/* colom 3 */}
         <div>
-          <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
+          <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
             Software Engineer, Frontend
           </h3>
           <p className='text-10 content-end text-gray-800 md:text-[16px]'>
@@ -67,10 +67,10 @@ export default function MyWorkExperience() {
         </div>
         {/* colom 3 */}
         <div>
-          <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
+          <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
             Plant Manager
           </h3>
-          <p className='md:tet-[16px] text-10 h-90 content-end text-gray-800'>
+          <p className='text-10 content-end text-gray-800 md:text-[16px]'>
             • Led production team, ensuring daily targets were met efficiently.
             <br /> • Managed improvement projects using Agile/Scrum
             methodologies to enhance production efficiency and quality.
@@ -100,10 +100,10 @@ export default function MyWorkExperience() {
         </div>
         {/* colom 3 */}
         <div>
-          <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
+          <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
             Head Production
           </h3>
-          <p className='md:tet-[16px] text-10 h-90 content-end text-gray-800'>
+          <p className='md:tet-[16px] text-10 content-end text-gray-800'>
             • Led and coordinated production teams to deliver projects on time
             <br />• Managed workflows, priorities, and cross-team communication
             <br />• Ensured quality standards and smooth project execution
@@ -131,10 +131,10 @@ export default function MyWorkExperience() {
         </div>
         {/* colom 3 */}
         <div>
-          <h3 className='content-center font-semibold text-black md:h-40 md:text-[20px] dark:text-white'>
+          <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
             Technology & Manufacturing Staff
           </h3>
-          <p className='md:tet-[16px] text-10 h-90 content-end text-gray-800'>
+          <p className='md:tet-[16px] text-10 content-end text-gray-800'>
             • Reduced production downtime (loss time) by analyzing process
             inefficiencies and implementing improvement
             <br />• Improved product quality by reducing rejection rates through

@@ -134,7 +134,7 @@ export default function Home() {
                 alt='ceklist'
                 className='w-13.89 h-13.89'
               />
-              <p className='text-[10px] md:text-sm'>React Expert</p>
+              <p className='text-[10px] md:text-sm'>React & Next.js</p>
             </div>
           </Card>
         </MotionWrapper>

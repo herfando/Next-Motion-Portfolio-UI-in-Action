@@ -42,7 +42,7 @@ export default function Navbar() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-medium text-black hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white lg:flex'>
+          <Button className='hidden h-48 w-172 gap-8 rounded-full bg-white text-sm font-bold text-black hover:cursor-pointer hover:bg-[#2a9e8b] hover:text-white lg:flex'>
             <Mail className='size-20' />
             Hire Me
           </Button>

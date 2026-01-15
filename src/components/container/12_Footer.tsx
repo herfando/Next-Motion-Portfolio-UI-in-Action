@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
         </div>
         {/* sosmed */}
-        <div className='flex gap-16'>
+        {/* <div className='flex gap-16'>
           <div className='flex h-48 w-48 items-center justify-center rounded-full bg-[#2a9e8b]'>
             <Image
               className='w-28.83 h-28.83'
@@ -54,7 +54,7 @@ export default function Footer() {
               height={28.83}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

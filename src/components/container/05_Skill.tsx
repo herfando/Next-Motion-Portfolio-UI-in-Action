@@ -19,7 +19,7 @@ export default function Skill() {
             key={index}
             whileHover={{ scale: 1.05, y: -6 }}
             transition={{ duration: 0.35, ease: 'easeOut' }}
-            className='h-184 w-582 space-y-8 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'
+            className='w-582 space-y-20 space-x-20 rounded-2xl p-16 shadow-[0_0_10px_#A5A5A533]'
           >
             <div className='flex gap-12'>
               <p className='dark:black grid h-[52.58px] w-[52.58px] place-items-center rounded-full bg-[#F5F5F5]'>

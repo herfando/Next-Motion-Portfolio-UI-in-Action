@@ -30,7 +30,7 @@ export default function Skill() {
               </p>
             </div>
 
-            <p className='text-[rgba(65,70,81,1)] md:text-[17px]'>
+            <p className='text-[rgba(65,70,81,1)] md:text-[16px]'>
               {skill.description}
             </p>
 

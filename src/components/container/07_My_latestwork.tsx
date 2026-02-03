@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Video } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function MyLatestWork() {
@@ -46,12 +46,14 @@ export default function MyLatestWork() {
               whileHover={{ scale: 1.05, y: -6 }}
               transition={{ duration: 0.35, ease: 'easeOut' }}
             >
-              <Image
-                src='/images/23_restaurant.png'
-                alt='task management solution'
+              <video
+                src='/video/01_restaurant.mp4'
+                autoPlay
+                loop
+                muted
                 width={381}
                 height={284}
-                className='h-269.09 w-361 rounded-2xl object-cover hover:cursor-pointer md:h-284 md:w-381'
+                className='h-269.09 w-361 rounded-2xl bg-neutral-800 hover:cursor-pointer md:h-284 md:w-381'
               />
             </motion.div>
           </Link>

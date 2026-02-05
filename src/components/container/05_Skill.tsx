@@ -1,9 +1,9 @@
 'use client';
 
-import React from 'react';
-import Image from 'next/image';
+// import React from 'react';
+// import Image from 'next/image';
 import { motion } from 'framer-motion';
-import ProgressBar from '../ui/motion-progressbar';
+// import ProgressBar from '../ui/motion-progressbar';
 import { skillData } from '../data/skill-data';
 
 export default function Skill() {

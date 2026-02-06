@@ -21,7 +21,7 @@ Table of Contents (opsional, rapi untuk portfolio):
 ## About
 
 This is my personal portfolio showcasing interactive web experiences built with **Next.js** and **Framer Motion**. Every project focuses on smooth animations, responsive UI, and modern frontend techniques.
-Features::
+Features:
 
 ## Features
 

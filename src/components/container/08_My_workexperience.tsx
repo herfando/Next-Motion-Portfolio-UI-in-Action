@@ -68,14 +68,15 @@ export default function MyWorkExperience() {
         {/* colom 3 */}
         <div>
           <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
-            Plant Manager
+            Junior Plant Manager
           </h3>
           <p className='text-10 content-end text-gray-800 md:text-[16px]'>
-            • Led production team, ensuring daily targets were met efficiently.
-            <br /> • Managed improvement projects using Agile/Scrum
-            methodologies to enhance production efficiency and quality.
-            <br /> • Developed problem-solving, time management, teamwork, and
-            leadership skills.
+            • Controlled & responsibility for budget, safety, environmental
+            compliance, and production continuity
+            <br /> • Managed projects using Agile/Scrum methodologies to enhance
+            production and quality efficiency
+            <br /> • Led factory operations, ensuring daily production targets
+            were met efficiently
           </p>
         </div>
         {/* SAP */}
@@ -104,7 +105,8 @@ export default function MyWorkExperience() {
             Head Production
           </h3>
           <p className='md:tet-[16px] text-10 content-end text-gray-800'>
-            • Led and coordinated production teams to deliver projects on time
+            • Improvements on the production line using Lean Six Sigma
+            methodologies
             <br />• Managed workflows, priorities, and cross-team communication
             <br />• Ensured quality standards and smooth project execution
           </p>

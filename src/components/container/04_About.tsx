@@ -241,7 +241,7 @@ export default function About() {
               width={381}
               height={384}
               alt='image'
-              src='/images/02_Fando4.png'
+              src='/images/02_Fando3.jpeg'
             />
             {/* Button */}
             <a

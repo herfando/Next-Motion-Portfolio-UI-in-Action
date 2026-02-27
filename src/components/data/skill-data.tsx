@@ -82,7 +82,7 @@ export const skillData: SkillItem[] = [
       />
     ),
     description:
-      'Create efficient and secure Node.js/Express.js solutions for dynamic web applications.',
+      'Create efficient and secure Node.js & Express.js solutions for dynamic web applications.',
     percentage: 90,
   },
   {

@@ -35,7 +35,7 @@ export default function MyWorkExperience() {
         {/* colom 3 */}
         <div>
           <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
-            Software Engineer, Full
+            Software Engineer, Full Stack
           </h3>
           <p className='text-10 content-end text-gray-800 md:text-[16px]'>
             • Developed backend services with Node.js | PostgreSQL | Railway |

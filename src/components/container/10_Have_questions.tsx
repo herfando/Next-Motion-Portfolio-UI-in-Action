@@ -5,28 +5,28 @@ import Image from 'next/image';
 const questions = [
   {
     id: 1,
-    question: "What's your approach to front-end development?",
+    question: "What's your approach to full-stack development?",
     answer:
       'I focus on clean, maintainable code and prioritize user experience. My approach involves close collaboration with designers to ensure exact implementation and seamless interactions across all devices.',
   },
   {
     id: 2,
-    question: "What's your approach to front-end development?",
+    question: "What's your approach to full-stack development?",
     answer: '',
   },
   {
     id: 3,
-    question: "What's your approach to front-end development?",
+    question: "What's your approach to full-stack development?",
     answer: '',
   },
   {
     id: 4,
-    question: "What's your approach to front-end development?",
+    question: "What's your approach to full-stack development?",
     answer: '',
   },
   {
     id: 5,
-    question: "What's your approach to front-end development?",
+    question: "What's your approach to full-stack development?",
     answer: '',
   },
 ];

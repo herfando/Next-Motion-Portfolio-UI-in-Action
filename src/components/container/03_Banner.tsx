@@ -5,7 +5,7 @@ import MotionWrapper from '../ui/motion-wrapper';
 import Image from 'next/image';
 
 const items = [
-  'Frontend Developer',
+  'Full Stack Developer',
   'React & Next.js',
   'Programmers',
   'Mobile Developers',

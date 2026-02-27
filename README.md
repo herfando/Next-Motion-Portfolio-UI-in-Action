@@ -1,6 +1,6 @@
 ⚡ Next Motion Portfolio: UI in Action
 
-⚡ Showcasing interactive, modern web experiences built with Next.js 💻 and Framer Motion 🎬. Explore smooth animations ✨, responsive UI 🎨, and cutting-edge frontend techniques 🚀 crafted for a seamless digital journey.
+⚡ Showcasing interactive, modern web experiences built with Next.js 💻 and Framer Motion 🎬. Explore smooth animations ✨, responsive UI 🎨, and cutting-edge fullstack techniques 🚀 crafted for a seamless digital journey.
 Badges (opsional, buat makin keren di GitHub):
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
@@ -20,7 +20,7 @@ Table of Contents (opsional, rapi untuk portfolio):
 
 ## About
 
-This is my personal portfolio showcasing interactive web experiences built with **Next.js** and **Framer Motion**. Every project focuses on smooth animations, responsive UI, and modern frontend techniques.
+This is my personal portfolio showcasing interactive web experiences built with **Next.js** and **Framer Motion**. Every project focuses on smooth animations, responsive UI, and modern fullstack techniques.
 Features:
 
 ## Features

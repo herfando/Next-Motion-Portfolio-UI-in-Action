@@ -67,7 +67,37 @@ export const skillData: SkillItem[] = [
       />
     ),
     description:
-      'Develop safe and scalable front-end applications with strong typing, minimizing bugs and improving maintainability.',
+      'Develop safe and scalable fullstack applications with strong typing, minimizing bugs and improving maintainability.',
+    percentage: 90,
+  },
+  {
+    name: 'Node & Express.js',
+    image: (
+      <Image
+        src='/images/36_nodejs.png'
+        alt='nodejs icon'
+        width={23.33}
+        height={23.33}
+        className='w-23.33 h-23.33'
+      />
+    ),
+    description:
+      'Create efficient and secure Node.js/Express.js solutions for dynamic web applications.',
+    percentage: 90,
+  },
+  {
+    name: 'postgreSQL',
+    image: (
+      <Image
+        src='/images/38_postgresql.png'
+        alt='postgresql icon'
+        width={23.33}
+        height={23.33}
+        className='w-23.33 h-23.33'
+      />
+    ),
+    description:
+      'Optimize queries and maintain data integrity for high-performance applications.',
     percentage: 90,
   },
   {
@@ -82,7 +112,7 @@ export const skillData: SkillItem[] = [
       />
     ),
     description:
-      'Build dynamic and interactive front-end applications using React JS, leveraging reusable components and state management for an optimal user experience.',
+      'Build dynamic and interactive fullstack applications using React JS, leveraging reusable components and state management for an optimal user experience.',
     percentage: 90,
   },
   {

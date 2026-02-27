@@ -50,7 +50,7 @@ export default function About() {
               React & Next.js
             </p>
             <p className='h-36 w-168 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
-              Frontend Developer
+              Fullstack Developer
             </p>
             <p className='h-36 w-154 content-center rounded-full bg-white text-center text-sm text-black dark:bg-black dark:text-white'>
               Resposive Design

@@ -35,14 +35,15 @@ export default function MyWorkExperience() {
         {/* colom 3 */}
         <div>
           <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
-            Software Engineer, Frontend
+            Software Engineer, Full
           </h3>
           <p className='text-10 content-end text-gray-800 md:text-[16px]'>
-            • Built responsive web interfaces using React and Next.js with
-            Tailwind CSS <br />• Managed application state using Redux Toolkit,
-            Zustand, and Context API <br />• Handled data fetching with TanStack
-            Query <br />• Implemented smooth UI animations using Framer Motion{' '}
-            <br />• Delivered clean, reusable, and high-performance code
+            • Developed backend services with Node.js | PostgreSQL | Railway |
+            Swagger <br />• Built responsive web interfaces using React.js |
+            Next.js | Tailwind CSS <br />• Managed application state using Redux
+            Toolkit | Zustand | Context API <br />• Handled data fetching with
+            Axios | TanStack Query <br />• Delivered clean, reusable, and
+            high-performance code
           </p>
         </div>
         {/* PT Porto */}

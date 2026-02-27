@@ -183,23 +183,23 @@ export default function MyLatestWork() {
         </div> */}
 
         {/* Work 4 */}
-        {/* <div className='flex h-444 w-384 flex-col justify-between gap-24'>
+        <div className='flex h-444 w-384 flex-col justify-between gap-24'>
           <div className='flex gap-x-5'>
             <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
-              Next.js
+              Node.js
             </div>
             <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
-              Redux
+              Express
             </div>
             <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
-              Typescript
+              PostgreSQL
             </div>
 
             <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
-              Tanstack
+              React
             </div>
             <div className='flex h-28 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] px-5 text-[12px] md:h-36 md:text-[14px]'>
-              Tailwind
+              Redux
             </div>
           </div>
           <Link
@@ -211,12 +211,14 @@ export default function MyLatestWork() {
               whileHover={{ scale: 1.05, y: -6 }}
               transition={{ duration: 0.35, ease: 'easeOut' }}
             >
-              <Image
-                src='/images/26_library.png'
-                alt='agriculture aplication'
+              <video
+                src='/video/03_library.mp4'
+                autoPlay
+                loop
+                muted
                 width={381}
                 height={284}
-                className='h-269.09 w-361 rounded-2xl object-cover hover:cursor-pointer md:h-284 md:w-381'
+                className='h-269.09 w-361 rounded-2xl bg-neutral-800 hover:cursor-pointer md:h-284 md:w-381'
               />
             </motion.div>
           </Link>
@@ -235,7 +237,7 @@ export default function MyLatestWork() {
               <ArrowRight className='ml-5 h-14 w-14 self-center' />
             </div>
           </Link>
-        </div> */}
+        </div>
 
         {/* Work 5 */}
         {/* <div className='flex h-444 w-384 flex-col justify-between gap-24'>

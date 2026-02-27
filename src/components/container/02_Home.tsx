@@ -32,7 +32,7 @@ export default function Home() {
           <div className='absolute top-[65%] z-12 text-center text-[clamp(25px,5vw,70px)] font-extrabold text-white md:top-[60%]'>
             HI, I’M FANDO — WEB
             <span className='text-[#2a9e8b]'> CREATOR & SOFTWARE </span>
-            ENGINEER, FRONTEND
+            ENGINEER, FULL STACK
           </div>
         </MotionWrapper>
 
@@ -109,7 +109,7 @@ export default function Home() {
                 className='w-13.89 h-13.89'
               />
               <p className='text-[10px] md:text-sm'>
-                Maintainable & scalable frontend code
+                Maintainable & scalable fullstack code
               </p>
             </div>
           </Card>
@@ -124,7 +124,7 @@ export default function Home() {
         >
           <Card className='absolute top-[30.056%] right-1/2 h-80 w-166 -translate-x-[14.924%] p-20 md:top-[38.54%] md:h-110 md:w-283 md:-translate-x-[60.498%] dark:text-white'>
             <p className='text-[14px] font-bold whitespace-nowrap md:text-[24px]'>
-              Frontend Developer
+              FullStack Developer
             </p>
             <div className='flex items-center gap-5'>
               <Image

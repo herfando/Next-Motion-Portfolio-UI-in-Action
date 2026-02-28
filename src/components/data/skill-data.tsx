@@ -89,7 +89,7 @@ export const skillData: SkillItem[] = [
     name: 'postgreSQL',
     image: (
       <Image
-        src='/images/38_postgresql.png'
+        src='/images/38_postgreSQL.png'
         alt='postgresql icon'
         width={23.33}
         height={23.33}

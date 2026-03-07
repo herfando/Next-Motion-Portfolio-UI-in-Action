@@ -22,8 +22,8 @@ export default function MyWorkExperience() {
             height={48}
             className='h-48 w-130 object-contain'
           />
-          <p className='font-semibold md:text-xl'>WPH</p>
-          <p className='md: text-md'>2025-2026</p>
+          <p className='font-semibold md:text-xl'>Freelance</p>
+          <p className='md: text-md'>2021-Present</p>
         </div>
 
         {/* colom 2 */}
@@ -35,20 +35,31 @@ export default function MyWorkExperience() {
         {/* colom 3 */}
         <div>
           <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
-            Software Engineer, Full Stack
+            Freelance Full-Stack Developer
           </h3>
           <p className='text-10 content-end text-gray-800 md:text-[16px]'>
-            • Developed backend services with Node.js | PostgreSQL | Railway |
-            Swagger <br />• Built responsive web interfaces using React.js |
-            Next.js | Tailwind CSS <br />• Managed application state using Redux
-            Toolkit | Zustand | Context API <br />• Handled data fetching with
-            Axios | TanStack Query <br />• Delivered clean, reusable, and
-            high-performance code
+            • Developed backend services using Node.js, integrating PostgreSQL,
+            MongoDB, AWS, Supabase, and Railway <br />• Designed and implemented
+            RESTful APIs with structured documentation using Swagger <br />•
+            Built responsive web applications using React.js, Next.js, and
+            Tailwind CSS <br />• Developed cross-platform mobile applications
+            using React Native <br />• Implemented modern state management
+            solutions including Redux Toolkit, Zustand, and Context API using
+            React Native <br />• Managed asynchronous data fetching using Axios
+            and TanStack Query
+            <br />• Implemented smooth UI animations using Framer Motion to
+            enhance user interaction <br />• Configured Google Search Console
+            for SEO monitoring, sitemap submission, and indexing.
+            <br />• Maintained automated CI/CD pipelines using GitHub Actions{' '}
+            <br />• Collaborated using Git workflows, pull requests, and code
+            reviews in Agile environments
+            <br />• Delivered clean, reusable, and scalable code focused on
+            maintainability and performance
           </p>
         </div>
         {/* PT Porto */}
         {/* colom 1 */}
-        <div className='hidden w-152 flex-col space-y-12 md:block'>
+        {/* <div className='hidden w-152 flex-col space-y-12 md:block'>
           <Image
             src='/images/30_porto.png'
             alt='porto company'
@@ -58,16 +69,16 @@ export default function MyWorkExperience() {
           />
           <p className='font-semibold md:text-xl'>Porto</p>
           <p className='md: text-md'>2024-2025</p>
-        </div>
+        </div> */}
 
         {/* colom 2 */}
-        <div className='z-1'>
+        {/* <div className='z-1'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
             <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#2a9e8b]'></div>
           </div>
-        </div>
+        </div> */}
         {/* colom 3 */}
-        <div>
+        {/* <div>
           <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
             Junior Plant Manager
           </h3>
@@ -79,10 +90,10 @@ export default function MyWorkExperience() {
             <br /> • Led factory operations, ensuring daily production targets
             were met efficiently
           </p>
-        </div>
+        </div> */}
         {/* SAP */}
         {/* colom 1 */}
-        <div className='hidden w-152 space-y-12 md:block'>
+        {/* <div className='hidden w-152 space-y-12 md:block'>
           <Image
             src='/images/31_sap.png'
             alt='SAP company'
@@ -92,16 +103,16 @@ export default function MyWorkExperience() {
           />
           <p className='font-semibold md:text-xl'>SAP</p>
           <p className='md: text-md'>2022-2024</p>
-        </div>
+        </div> */}
 
         {/* colom 2 */}
-        <div className='z-1'>
+        {/* <div className='z-1'>
           <div className='flex h-24 w-24 items-center justify-center rounded-full border border-dashed border-[#A4A7AE] bg-white md:h-40 md:w-40 dark:bg-black'>
             <div className='h-14.4 w-14.4 mx-auto h-24 w-24 rounded-full bg-[#2a9e8b]'></div>
           </div>
-        </div>
+        </div> */}
         {/* colom 3 */}
-        <div>
+        {/* <div>
           <h3 className='content-center font-semibold text-black md:text-[20px] dark:text-white'>
             Head Production
           </h3>
@@ -111,7 +122,7 @@ export default function MyWorkExperience() {
             <br />• Managed workflows, priorities, and cross-team communication
             <br />• Ensured quality standards and smooth project execution
           </p>
-        </div>
+        </div> */}
         {/* Hankook */}
         {/* colom 1 */}
         <div className='hidden w-152 space-y-12 md:block'>
